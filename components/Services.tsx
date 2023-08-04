@@ -4,7 +4,7 @@ import Section from './Section'
 const Services = () => {
     return (
         <Section>
-            <div className=' h-full mt-20'>
+            <div className=' h-full mt-20 xs:mt-10'>
 
                 <h1 className=' text-5xl font-semibold tracking-tight text-[#CEFF1A] opacity-75'>
                     What I do
