@@ -6,7 +6,7 @@ interface SectionProps {
 
 const Section = ({ children }: SectionProps) => {
     return (
-        <section className='mb-20 mx-10 rounded-md  overflow-x-hidden'>
+        <section className='mb-20 mx-10 rounded-md overflow-x-hidden xs:mb-15'>
             {children}
         </section>
     )
