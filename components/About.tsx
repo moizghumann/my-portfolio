@@ -6,8 +6,8 @@ import Section from './Section'
 const About = () => {
     return (
         <Section>
-            <div className=' grid grid-cols-2 gap-8 mt-20 xs:gap-3 xs:mt-0'>
-                <div className=' rounded-xl overflow-hidden relative'>
+            <div className=' grid grid-cols-2 gap-8 mt-20 xs:gap-3 xs:mt-0 xs:grid-cols-4'>
+                <div className=' rounded-xl overflow-hidden relative xs:col-span-2'>
                     <Image src={anotherme}
                         alt='moiz'
                         fill={true}
@@ -16,12 +16,12 @@ const About = () => {
                         priority
                     />
                 </div>
-                <div className='flex flex-col justify-around items-start border-2 border-[#e6e1c5] rounded-xl p-5 xs:p-2 '>
-                    <h1 className=' text-9xl xs:text-2xl text-[#e6e1c5] font-semibold tracking-tight'>The one</h1>
-                    <h1 className=' text-9xl xs:text-2xl text-[#e6e1c5] font-semibold tracking-tight'>Who</h1>
-                    <h1 className=' text-9xl xs:text-2xl text-[#e6e1c5] font-semibold tracking-tight'>Gets</h1>
-                    <h1 className=' text-9xl xs:text-2xl text-[#e6e1c5] font-semibold tracking-tight'>Shit</h1>
-                    <h1 className=' text-9xl xs:text-2xl text-[#cbf420] font-semibold tracking-tight opacity-90'>Done!</h1>
+                <div className='flex flex-col justify-around items-start border-2 border-[#e6e1c5] rounded-xl p-5 xs:p-2 min-w-fit'>
+                    <h1 className=' text-9xl xs:text-[62px] text-[#e6e1c5] font-semibold tracking-tight'>The one</h1>
+                    <h1 className=' text-9xl xs:text-[62px] text-[#e6e1c5] font-semibold tracking-tight'>Who</h1>
+                    <h1 className=' text-9xl xs:text-[62px] text-[#e6e1c5] font-semibold tracking-tight'>Gets</h1>
+                    <h1 className=' text-9xl xs:text-[62px] text-[#e6e1c5] font-semibold tracking-tight'>Shit</h1>
+                    <h1 className=' text-9xl xs:text-[62px] text-[#cbf420] font-semibold tracking-tight opacity-90'>Done!</h1>
                 </div>
             </div>
         </Section>
