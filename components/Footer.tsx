@@ -8,8 +8,8 @@ import copyright from '../public/copyright-svgrepo-com (3).svg'
 
 const Footer = () => {
     return (
-        <div className=' flex flex-col justify-center items-center mb-5 mx-20'>
-            <div className=' mx-10 w-full rounded-2xl px-5 mb-5 h-20 bg-[#B8DE1E] flex flex-row justify-between items-center'>
+        <div className=' flex flex-col justify-center items-center mb-5 xs:mb-2 mx-20 xs:mx-5'>
+            <div className=' mx-10 w-full rounded-2xl px-5 xs:px-3  mb-5 h-20 xs:h-14 bg-[#B8DE1E] flex flex-row justify-between items-center'>
                 <div className='flex flex-row justify-center pl-1 items-center bg-[#0E1421] rounded-lg h-8 w-8'> <h1 className=' text-lg font-semibold text-[#B8DE1E]'>m.</h1></div>
 
                 <div className=' flex flex-row justify-center items-center gap-3'>
@@ -26,7 +26,7 @@ const Footer = () => {
             </div>
 
 
-            <p className=' flex items-center opacity-70 text-sm'>
+            <p className=' flex items-center justify-center opacity-60 text-[12px] flex-wrap xs:text-center'>
                 Copyright
                 <Image src={copyright} alt='copright icon' height={15} width={15} className='mx-[4px]' /> Moiz's Portfolio 2023. Made with
                 <a href={'https://tailwindcss.com/'} className='ml-[4px]'>
