@@ -11,8 +11,8 @@ const Showcase = () => {
             <Section>
 
                 <div className=' grid place-items-center '>
-                    <h2 className='text-6xl xss:text-[32px] text-center font-semibold tracking-tight text-[#CEFF1A]'>
-                        Some of my projects
+                    <h2 className='text-6xl xss:text-4xl text-center font-semibold xss:font-bold tracking-tight text-[#CEFF1A]'>
+                        Projects
                     </h2>
                     <p className=' text-lg opacity-90 text-[#E6E1C5] text-center mt-4 w-[45%] tracking-tight'>
                         While Moiz has worked on a couple of other projects as well, here a few of them
