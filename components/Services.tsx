@@ -9,7 +9,7 @@ const Services = () => {
                 <h1 className=' text-4xl xs:text-4xl xss:text-3xl font-semibold tracking-tight text-[#cbf420] opacity-90'>
                     What I do
                 </h1>
-                <div className=' text-6xl xs:text-[32px] xss:text-3xl w-full font-medium tracking-tight mt-4 xs:mt-3 xss:mt-2'>
+                <div className=' text-6xl xs:text-[32px] xss:text-[33px] w-full font-medium tracking-tight mt-4 xs:mt-3 xss:mt-2'>
                     <div className=' py-4 xss:py-2 xs:py-3 border-t-2  border-[#e6e1c561]'>
                         Design user interfaces
                     </div>
