@@ -11,7 +11,7 @@ const Showcase = () => {
             <Section>
 
                 <div className=' grid place-items-center '>
-                    <h2 className='text-6xl text-center font-semibold tracking-tight text-[#CEFF1A]'>
+                    <h2 className='text-6xl xss:text-[32px] text-center font-semibold tracking-tight text-[#CEFF1A]'>
                         Some of my projects
                     </h2>
                     <p className=' text-lg opacity-90 text-[#E6E1C5] text-center mt-4 w-[45%] tracking-tight'>
