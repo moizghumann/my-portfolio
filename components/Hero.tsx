@@ -10,7 +10,7 @@ const Hero = () => {
         <Section>
             <div className=' block mt-56 xs:mt-36 mb-28'>
 
-                <h1 className='text-7xl xs:text-[40px] mx-auto text-center font-semibold max-w-4xl  tracking-tight text-[#e6e1c5] opacity-90'>
+                <h1 className='text-7xl xs:text-[40px] xss:text-4xl mx-auto text-center font-semibold max-w-4xl  tracking-tight text-[#e6e1c5] opacity-90'>
                     <Balancer>
                         Moiz focuses on crafting meaningful experiences as an
                         <span className='text-[#CEFF1A] ml-4 xs:ml-2'>
