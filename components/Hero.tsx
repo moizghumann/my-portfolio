@@ -13,7 +13,7 @@ const Hero = () => {
                 <h1 className='text-7xl xs:text-[40px] xss:text-4xl mx-auto text-center font-semibold max-w-4xl  tracking-tight text-[#e6e1c5] opacity-90'>
                     <Balancer>
                         Moiz focuses on crafting meaningful experiences as an
-                        <span className='text-[#CEFF1A] ml-4 xs:ml-2'>
+                        <span className='text-[#CEFF1A] ml-4 xs:ml-2 xss:ml-2'>
                             independent frontend developer
                         </span>
                     </Balancer>
