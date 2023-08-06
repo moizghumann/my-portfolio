@@ -79,3 +79,13 @@ button.buttonSax:active::before {
 .link a:hover {
     text-decoration: none;
 }
+
+@media (max-width: 425px) {
+    .buttonSax {
+        font-size: 0.9em;
+        font-weight: 550;
+        /* Adjust the font size for smaller screens */
+        padding: 0.85em 1.1em;
+        /* Adjust padding for smaller screens */
+    }
+}
