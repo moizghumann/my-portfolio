@@ -21,11 +21,11 @@ const Showcase = () => {
 
                 <div className='grid gap-5 xl:grid-cols-9 xss:px-10 mt-11 xt:grid-cols-2 xt:grid-rows-2'>
                     <div className='xl:col-span-4 xt:col-span-1  bg-[#e6e1c5] shadow-lg shadow-[#090D15] h-full rounded-2xl'>
-                        <div className=' p-8 xss:p-6 pb-10 flex flex-col justify-between items-start h-full'>
+                        <div className=' p-8 xss:p-10 pb-10 flex flex-col justify-between items-start h-full'>
 
                             <div>
                                 <Image src={game} alt='game-logo' height={70} width={70} />
-                                <h3 className='text-start tracking-tight font-semibold text-4xl text-[#0e1420] pb-4 pt-1'>
+                                <h3 className='text-start tracking-tight font-semibold xss:font-bold text-4xl xss:text-3xl text-[#0e1420] pb-4 pt-1'>
                                     GameVerse
                                 </h3>
                                 <p className='text-[#0e1420] w-[70%] xss:w-full xss:mb-7'>
