@@ -1,7 +1,5 @@
 import Image from 'next/image'
 import React from 'react'
-import game from '../public/gameLogos/console-svgrepo-com.svg'
-import Button from './Button'
 import Section from './Section'
 import ArrowButton from './ArrowButton'
 import ShowcaseIcon from './ShowcaseIcon'
