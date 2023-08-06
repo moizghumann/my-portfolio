@@ -93,9 +93,9 @@ button.buttonSax:active::before {
 @media (max-width: 375px) {
     .buttonSax {
         font-size: 0.8em;
-        font-weight: 550;
+        font-weight: 600;
         /* Adjust the font size for smaller screens */
-        padding: 0.90em 1.1em;
+        padding: 1em 1.4em;
         /* Adjust padding for smaller screens */
     }
 }
