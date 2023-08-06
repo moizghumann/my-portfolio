@@ -94,9 +94,9 @@ button.buttonSax:active::before {
     .buttonSax {
         font-size: 0.9em;
         letter-spacing: -0.025em;
-        font-weight: 600;
+        font-weight: 700;
         /* Adjust the font size for smaller screens */
-        padding: 1em 1.4em;
+        padding: 1em 1.2em;
         /* Adjust padding for smaller screens */
     }
 }
