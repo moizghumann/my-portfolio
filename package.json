@@ -31,6 +31,6 @@
     "typescript": "^5.1.6"
   },
   "resolutions": {
-    "@next/swc-darwin-x64": ""
+    "@next/swc-darwin-x64": "13.4.12"
   }
 }
