@@ -9,7 +9,7 @@ import copyright from '../public/copyright-svgrepo-com (3).svg'
 const Footer = () => {
     return (
         <div className=' flex flex-col justify-center items-center mb-5 xss:mb-2 xs:mb-2 mx-20 xs:mx-5 xss:mx-2'>
-            <div className=' mx-10 w-full rounded-2xl px-5 xs:px-3  mb-5 xss:mb-2 h-20 xs:h-14 bg-[#B8DE1E] flex flex-row justify-between items-center'>
+            <div className=' mx-10 w-full rounded-2xl px-5 xs:px-3  mb-5 xss:mb-2 xss:py-4 h-20 xss:h-fit xs:h-14 bg-[#B8DE1E] flex flex-row justify-between items-center'>
                 <div className='flex flex-row justify-center pl-1 items-center bg-[#0E1421] rounded-lg h-8 w-8'> <h1 className=' text-lg font-semibold text-[#B8DE1E]'>m.</h1></div>
 
                 <div className=' flex flex-row justify-center items-center gap-3'>
