@@ -3,7 +3,8 @@ import BlogCard from './BlogCard'
 
 const BlogsGrid = () => {
     return (
-        <div className=' grid grid-cols-4 gap-8 xl:grid-cols-4 xm:grid-cols-4 xt:grid-cols-3 xs:grid-cols-1 cursor-pointer'>
+        <div className=' grid grid-cols-4 gap-8 xl:grid-cols-4 xm:grid-cols-4 xt:grid-cols-3 xs:grid-cols-1
+        xss:grid-cols-2 xss:px-4 xss:gap-4 cursor-pointer'>
             <BlogCard heading='Noteworthy technology acquisitions 2021' />
             <BlogCard heading='Noteworthy technology acquisitions 2021' />
             <BlogCard heading='Noteworthy technology acquisitions 2021' />

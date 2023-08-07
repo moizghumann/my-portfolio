@@ -22,8 +22,8 @@ const BlogCard = ({ heading }: BlogCardProp) => {
             </div>
 
             <div className="pt-5 pr-2">
-                <h6 className=' text-sm font-medium uppercase'>Tech</h6>
-                <h5 className="mb-2 text-2xl font-medium tracking-tight ">
+                <h6 className=' text-sm xss:text-[10px] font-medium xss:font-semibold uppercase'>Tech</h6>
+                <h5 className="mb-2 text-2xl xss:text-xl font-medium tracking-tight ">
                     {heading}
                 </h5>
 
