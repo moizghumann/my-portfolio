@@ -6,6 +6,7 @@ import Section from './Section'
 const About = () => {
     return (
         <Section>
+
             <div className=' grid grid-cols-2 gap-8 mt-20 xs:gap-3 xss:gap-2 xs:mt-0 xs:grid-cols-4 xss:grid-cols-7 '>
                 <div className=' rounded-xl overflow-hidden relative xs:col-span-2 xss:col-span-4 '>
                     <Image src={anotherme}
@@ -24,6 +25,7 @@ const About = () => {
                     <h1 className=' text-9xl xs:text-[62px] xss:text-5xl text-[#cbf420] font-semibold tracking-tight opacity-90'>Done!</h1>
                 </div>
             </div>
+
         </Section>
     )
 }
