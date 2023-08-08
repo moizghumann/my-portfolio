@@ -6,15 +6,19 @@ import MobileNavButton from './MobileNavButton'
 
 const NavBar = () => {
     return (
-        <nav className='fixed w-full h-fit px-[6rem] xss:px-5 z-10 top-0  mb-5
-         xt:px-0 xt:mx-10 xt:pr-[72px]'>
+        <nav className='fixed w-full h-fit z-10 top-0  mb-5 
+        xss:px-5
+        xt:px-0 xt:mx-10 xt:pr-[72px]
+        xl:pr-[120px] xl:pl-10'>
             <div className='flex flex-row justify-between items-center h-20 w-full px-6 xss:px-4 xss:py-3 
             xss:h-fit ring-2 ring-[#E6E1C5] rounded-3xl xss:rounded-2xl mt-7 overflow-x-hidden backdrop-blur-sm
+            xl:px-6 xl:py-3 xl:rounded-3xl
             '>
                 <div>
                     <Link href={'/'}>
                         <div className=' xss:w-8 xss:h-8
-                        xt:w-11 xt:h-11'>
+                        xt:w-11 xt:h-11
+                        xl:w-14 xl:h-14'>
                             <Image
                                 src={logo}
                                 alt='logo'
@@ -28,9 +32,9 @@ const NavBar = () => {
                     </Link>
                 </div>
 
-                <MobileNavButton />
-
-                <div className=' flex items-center gap-6  uppercase font-medium xss:hidden'>
+                <div className=' xl:flex xl:items-center xl:gap-6  uppercase font-medium 
+                xss:hidden
+                xl:visible'>
                     <Link href={'/blogs'} className=' hover:text-[#b8de1e]'>
                         Blogs
                     </Link>
@@ -41,6 +45,7 @@ const NavBar = () => {
                         <text className='text-[#0E1421]'>Contact me</text>
                     </div>
                 </div>
+                <MobileNavButton />
             </div>
         </nav>
     )
