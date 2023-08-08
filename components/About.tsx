@@ -10,11 +10,12 @@ const About = () => {
             <div className=' grid grid-cols-2 gap-8 mt-20 
             xs:gap-3 xs:mt-0 xs:grid-cols-10 
             xss:grid-cols-7 xss:gap-2
-            xt:grid-cols-10 xt:mt-32'>
+            xt:grid-cols-10 xt:mt-32 xt:mx-10'>
                 <div className=' rounded-xl overflow-hidden relative 
                 xs:col-span-6 
                 xss:col-span-4
-                xt:col-span-7 '>
+                xt:col-span-7
+                xl:col-span-7 '>
                     <Image src={anotherme}
                         alt='moiz'
                         fill={true}
@@ -23,9 +24,10 @@ const About = () => {
                         priority
                     />
                 </div>
-                <div className='flex flex-col justify-around items-start border-2 border-[#e6e1c5] rounded-xl p-5 xs:p-2 xs:col-span-4 xss:p-2 min-w-fit text-9xl xs:text-[55px] xss:text-5xl
-                xt:text-[80px] xt:col-span-3'>
-                    <h1 className='  text-[#e6e1c5] font-semibold tracking-tight'>The one</h1>
+                <div className='flex flex-col justify-around items-center border-2 border-[#e6e1c5] rounded-xl p-5 xs:p-2 xs:col-span-4 xss:p-2 min-w-fit text-9xl xs:text-[55px] xss:text-5xl
+                xt:text-[80px] xt:col-span-3
+                xl:col-span-3 xl:text-[100px]'>
+                    <h1 className='  text-[#e6e1c5] font-semibold tracking-tight xl:text-center'>The one</h1>
                     <h1 className='  text-[#e6e1c5] font-semibold tracking-tight'>Who</h1>
                     <h1 className='  text-[#e6e1c5] font-semibold tracking-tight'>Gets</h1>
                     <h1 className='  text-[#e6e1c5] font-semibold tracking-tight'>Shit</h1>
