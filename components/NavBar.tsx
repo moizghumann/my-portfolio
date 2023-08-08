@@ -6,12 +6,15 @@ import MobileNavButton from './MobileNavButton'
 
 const NavBar = () => {
     return (
-        <nav className='fixed w-full h-fit px-[6rem] xss:px-5 z-10 top-0  mb-5'>
+        <nav className='fixed w-full h-fit px-[6rem] xss:px-5 z-10 top-0  mb-5
+         xt:px-0 xt:mx-10 xt:pr-[72px]'>
             <div className='flex flex-row justify-between items-center h-20 w-full px-6 xss:px-4 xss:py-3 
-            xss:h-fit ring-2 ring-[#E6E1C5] rounded-3xl xss:rounded-2xl mt-7 overflow-x-hidden backdrop-blur-sm'>
+            xss:h-fit ring-2 ring-[#E6E1C5] rounded-3xl xss:rounded-2xl mt-7 overflow-x-hidden backdrop-blur-sm
+            '>
                 <div>
                     <Link href={'/'}>
-                        <div className=' xss:w-8 xss:h-8'>
+                        <div className=' xss:w-8 xss:h-8
+                        xt:w-11 xt:h-11'>
                             <Image
                                 src={logo}
                                 alt='logo'

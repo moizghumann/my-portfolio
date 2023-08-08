@@ -8,11 +8,14 @@ import copyright from '../public/copyright-svgrepo-com (3).svg'
 
 const Footer = () => {
     return (
-        <div className=' flex flex-col justify-center items-center mb-5 xss:mb-2 xs:mb-2 mx-20 xs:mx-5 xss:mx-2'>
-            <div className=' mx-10 w-full rounded-2xl px-5 mb-5 h-20 
+        <div className=' flex flex-col justify-center items-center mb-5 mx-20 
+        xss:mb-2 xss:mx-2
+        xs:mb-2 xs:mx-5
+        xt:mx-10'>
+            <div className=' mx-10 w-full rounded-2xl px-5 mb-5 h-20 bg-[#B8DE1E] flex flex-row justify-between items-center
             xss:mb-2 xss:py-4 xss:h-fit 
             xs:px-4 xs:h-14 xs:py-8
-            bg-[#B8DE1E] flex flex-row justify-between items-center'>
+            xt:mb-3'>
                 <div className='flex flex-row justify-center pl-1 items-center bg-[#0E1421] rounded-lg h-8 w-8'>
                     <h1 className=' text-lg font-semibold text-[#B8DE1E]'>
                         m.
@@ -33,7 +36,10 @@ const Footer = () => {
             </div>
 
 
-            <p className=' flex items-center justify-center opacity-60 text-[12px] flex-wrap xs:text-center xss:px-2 '>
+            <p className=' flex items-center justify-center opacity-60 text-[12px] flex-wrap 
+            xss:px-2 
+            xs:text-center
+            xt:mb-1'>
                 Copyright
                 <Image src={copyright} alt='copright icon' height={15} width={15} className='mx-[4px]' /> Moiz's Portfolio 2023. Made with
                 <a href={'https://tailwindcss.com/'} className='ml-[4px]'>

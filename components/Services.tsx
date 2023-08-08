@@ -4,12 +4,20 @@ import Section from './Section'
 const Services = () => {
     return (
         <Section>
-            <div className=' h-full mt-20 xs:mt-10'>
+            <div className=' h-full mt-20 
+            xs:mt-10
+            xt:mt-32'>
 
-                <h1 className=' text-4xl xs:text-4xl xss:text-3xl font-semibold tracking-tight text-[#cbf420] opacity-90'>
+                <h1 className=' text-4xl font-semibold tracking-tight text-[#cbf420] opacity-90
+                xss:text-3xl 
+                xs:text-4xl
+                '>
                     What I do
                 </h1>
-                <div className=' text-6xl xs:text-[35px] xss:text-[33px] w-full font-medium tracking-tight mt-4 xs:mt-3 xss:mt-2'>
+                <div className=' text-6xl w-full font-medium tracking-tigh mt-4 
+                xs:mt-3 xs:text-[35px]
+                xss:mt-2 xss:text-[33px]
+                xt:mt-4 xt:text-[42px] tracking-tight'>
                     <div className=' py-4 xss:py-2 xs:py-3 border-t-2  border-[#e6e1c561]'>
                         Design user interfaces
                     </div>

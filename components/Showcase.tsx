@@ -9,7 +9,8 @@ const Showcase = () => {
         <>
             <Section>
 
-                <div className=' grid place-items-center '>
+                <div className=' grid place-items-center 
+                '>
                     <h2 className='text-6xl text-center font-semibold tracking-tight text-[#CEFF1A]
                     xss:font-bold xss:text-4xl
                     xt:text-5xl'>
@@ -57,25 +58,29 @@ const Showcase = () => {
                     </div>
                     <div className='grid gap-5 xl:col-span-2 xl:grid-cols-1 xt:grid-cols-2 xt:col-span-2 xs: grid-cols-1'>
                         <div className=' xl:row-span-1 xt:col-span-1 bg-[#e6e1c5] shadow-lg shadow-[#090D15] rounded-2xl'>
-                            <div className=' xss:p-6 flex flex-col justify-between items-start '>
+                            <div className=' xss:p-6 flex flex-col justify-between items-start h-full '>
 
-                                <ShowcaseIcon />
-                                <h3 className=' tracking-tight text-start font-semibold xss:font-bold xss:text-3xl text-2xl text-[#0e1420] pt-[3px] pb-[7px]'>
-                                    Todo App
-                                </h3>
-                                <p className='text-[#0e1420] w-[95%] xss:w-full xss:mb-7'>Interactive Todo game using React, TypeScript, and React Query</p>
+                                <div>
+                                    <ShowcaseIcon />
+                                    <h3 className=' tracking-tight text-start font-semibold xss:font-bold xss:text-3xl text-2xl text-[#0e1420] pt-[3px] pb-[7px]'>
+                                        Todo App
+                                    </h3>
+                                    <p className='text-[#0e1420] w-[95%] xss:w-full xss:mb-7'>Interactive Todo game using React, TypeScript, and React Query</p>
+                                </div>
 
                                 <ArrowButton />
                             </div>
                         </div>
                         <div className='bg-[#e6e1c5] shadow-lg shadow-[#090D15] rounded-2xl'>
-                            <div className=' xss:p-6 flex flex-col justify-between items-start '>
+                            <div className=' xss:p-6 flex flex-col justify-between items-start h-full'>
 
-                                <ShowcaseIcon />
-                                <h3 className='text-start tracking-tight font-semibold xss:font-bold xss:text-3xl text-2xl text-[#0e1420] pt-[3px] pb-[7px]'>
-                                    Expense Tracker
-                                </h3>
-                                <p className='text-[#0e1420] w-[95%] xss:w-full xss:mb-7'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <div>
+                                    <ShowcaseIcon />
+                                    <h3 className='text-start tracking-tight font-semibold xss:font-bold xss:text-3xl text-2xl text-[#0e1420] pt-[3px] pb-[7px]'>
+                                        Expense Tracker
+                                    </h3>
+                                    <p className='text-[#0e1420] w-[95%] xss:w-full xss:mb-7'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
 
                                 <ArrowButton />
                             </div>
