@@ -3,6 +3,7 @@ import React from 'react'
 import Section from './Section'
 import ArrowButton from './ArrowButton'
 import ShowcaseIcon from './ShowcaseIcon'
+import goku from '../public/12916.gif'
 
 const Showcase = () => {
     return (
@@ -11,9 +12,10 @@ const Showcase = () => {
 
                 <div className=' grid place-items-center 
                 '>
-                    <h2 className='text-6xl text-center font-semibold tracking-tight text-[#CEFF1A]
+                    <h2 className=' text-center font-semibold tracking-tight text-[#CEFF1A]
                     xss:font-bold xss:text-4xl
-                    xt:text-5xl'>
+                    xt:text-5xl
+                    xl:text-6xl'>
                         Projects
                     </h2>
                     <p className=' text-lg opacity-90 text-[#E6E1C5] text-center mt-4 w-[45%] tracking-tight
@@ -23,9 +25,12 @@ const Showcase = () => {
                     </p>
                 </div>
 
-                <div className='grid gap-5 xl:grid-cols-9 xss:px-10 mt-11 xt:grid-cols-2 xt:grid-rows-2'>
-                    <div className='xl:col-span-4 xt:col-span-1  bg-[#e6e1c5] shadow-lg shadow-[#090D15] h-full rounded-2xl'>
-                        <div className=' xss:p-6 pb-10 flex flex-col justify-between items-start h-full'>
+                <div className='grid gap-5 mt-11 h-fit
+                xl:grid-cols-9 
+                xss:px-10 
+                xt:grid-cols-2 xt:grid-rows-2'>
+                    <div className='xl:col-span-6 h-full xt:col-span-1  bg-[#e6e1c5] shadow-lg shadow-[#090D15] rounded-2xl'>
+                        <div className=' xss:p-6 pb-10 flex flex-col justify-between items-start h-fit'>
 
                             <div>
                                 <ShowcaseIcon />
@@ -40,7 +45,16 @@ const Showcase = () => {
 
                         </div>
                     </div>
-                    <div className='xl:col-span-3 xt:col-span-1 bg-[#e6e1c5] shadow-lg shadow-[#090D15] rounded-2xl'>
+
+                    <div className=' rounded-2xl xl:col-span-3 h-full relative overflow-hidden
+                    xss:hidden
+                    xs:hidden
+                    xt:visible 
+                    xl:visible xl:block'>
+                        <Image src={goku} alt='goku' objectFit='cover' fill={true} priority />
+                    </div>
+
+                    <div className='xl:col-span-4 xt:col-span-1 bg-[#e6e1c5] shadow-lg shadow-[#090D15] rounded-2xl h-full'>
                         <div className=' xss:p-6 pb-10 flex flex-col justify-between items-start h-full'>
 
                             <div>
@@ -56,8 +70,8 @@ const Showcase = () => {
 
                         </div>
                     </div>
-                    <div className='grid gap-5 xl:col-span-2 xl:grid-cols-1 xt:grid-cols-2 xt:col-span-2 xs: grid-cols-1'>
-                        <div className=' xl:row-span-1 xt:col-span-1 bg-[#e6e1c5] shadow-lg shadow-[#090D15] rounded-2xl'>
+                    <div className='xt:grid xs:grid xs:gap-5 xt:gap-5 xl:col-span-5 xt:grid-cols-2 xt:col-span-2 xs: grid-cols-1'>
+                        <div className=' xl:col-span-1 xt:col-span-1 bg-[#e6e1c5] shadow-lg shadow-[#090D15] rounded-2xl'>
                             <div className=' xss:p-6 flex flex-col justify-between items-start h-full '>
 
                                 <div>
@@ -71,8 +85,8 @@ const Showcase = () => {
                                 <ArrowButton />
                             </div>
                         </div>
-                        <div className='bg-[#e6e1c5] shadow-lg shadow-[#090D15] rounded-2xl'>
-                            <div className=' xss:p-6 flex flex-col justify-between items-start h-full'>
+                        <div className='bg-[#e6e1c5] shadow-lg shadow-[#090D15] rounded-2xl '>
+                            <div className=' xss:p-6 flex flex-col justify-between items-start h-full xl:col-span-1'>
 
                                 <div>
                                     <ShowcaseIcon />
