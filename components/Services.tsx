@@ -6,18 +6,19 @@ const Services = () => {
         <Section>
             <div className=' h-full mt-20 
             xs:mt-10
-            xt:mt-32'>
-
+            xt:mt-32
+            xl:mx-10'>
                 <h1 className=' text-4xl font-semibold tracking-tight text-[#cbf420] opacity-90
                 xss:text-3xl 
                 xs:text-4xl
                 '>
-                    What I do
+                    What I do?
                 </h1>
                 <div className=' text-6xl w-full font-medium tracking-tigh mt-4 
                 xs:mt-3 xs:text-[35px]
                 xss:mt-2 xss:text-[33px]
-                xt:mt-4 xt:text-[42px] tracking-tight'>
+                xt:mt-4 xt:text-[42px] tracking-tight
+                xl:text-6xl'>
                     <div className=' py-4 xss:py-2 xs:py-3 border-t-2  border-[#e6e1c561]'>
                         Design user interfaces
                     </div>

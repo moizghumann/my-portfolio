@@ -10,7 +10,8 @@ const About = () => {
             <div className=' grid grid-cols-2 gap-8 mt-20 
             xs:gap-3 xs:mt-0 xs:grid-cols-10 
             xss:grid-cols-7 xss:gap-2
-            xt:grid-cols-10 xt:mt-32 xt:mx-10'>
+            xt:grid-cols-10 xt:mt-32 xt:mx-10
+            '>
                 <div className=' rounded-xl overflow-hidden relative 
                 xs:col-span-6 
                 xss:col-span-4

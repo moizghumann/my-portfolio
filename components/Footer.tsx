@@ -11,11 +11,13 @@ const Footer = () => {
         <div className=' flex flex-col justify-center items-center mb-5 mx-20 
         xss:mb-2 xss:mx-2
         xs:mb-2 xs:mx-5
-        xt:mx-10'>
+        xt:mx-10
+        xl:mx-24'>
             <div className=' mx-10 w-full rounded-2xl px-5 mb-5 h-20 bg-[#B8DE1E] flex flex-row justify-between items-center
             xss:mb-2 xss:py-4 xss:h-fit 
             xs:px-4 xs:h-14 xs:py-8
-            xt:mb-3'>
+            xt:mb-3
+            xl:py-10 xl:px-5'>
                 <div className='flex flex-row justify-center pl-1 items-center bg-[#0E1421] rounded-lg h-8 w-8'>
                     <h1 className=' text-lg font-semibold text-[#B8DE1E]'>
                         m.
