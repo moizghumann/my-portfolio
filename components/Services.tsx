@@ -16,7 +16,7 @@ const Services = () => {
                 </h1>
                 <div className=' text-6xl w-full font-medium tracking-tigh mt-4 
                 xs:mt-3 xs:text-[35px]
-                xss:mt-2 xss:text-[33px]
+                xss:mt-2 xss:text-[33px] xss:font-semibold
                 xt:mt-4 xt:text-[42px] tracking-tight
                 xl:text-6xl'>
                     <div className=' py-4 xss:py-2 xs:py-3 border-t-2  border-[#e6e1c561]'>

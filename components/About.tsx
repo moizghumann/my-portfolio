@@ -28,7 +28,7 @@ const About = () => {
                 <div className='flex flex-col justify-around items-center border-2 border-[#e6e1c5] rounded-xl p-5 xs:p-2 xs:col-span-4 xss:p-2 min-w-fit text-9xl xs:text-[55px] xss:text-5xl
                 xt:text-[80px] xt:col-span-3
                 xl:col-span-3 xl:text-[100px]'>
-                    <h1 className='  text-[#e6e1c5] font-semibold tracking-tight xl:text-center'>The one</h1>
+                    <h1 className='  text-[#e6e1c5] font-semibold tracking-tight text-center'>The one</h1>
                     <h1 className='  text-[#e6e1c5] font-semibold tracking-tight'>Who</h1>
                     <h1 className='  text-[#e6e1c5] font-semibold tracking-tight'>Gets</h1>
                     <h1 className='  text-[#e6e1c5] font-semibold tracking-tight'>Shit</h1>
