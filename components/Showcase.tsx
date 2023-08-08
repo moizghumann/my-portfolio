@@ -10,10 +10,14 @@ const Showcase = () => {
             <Section>
 
                 <div className=' grid place-items-center '>
-                    <h2 className='text-6xl text-center font-semibold xss:font-bold xss:text-4xl tracking-tight text-[#CEFF1A]'>
+                    <h2 className='text-6xl text-center font-semibold tracking-tight text-[#CEFF1A]
+                    xss:font-bold xss:text-4xl
+                    xt:text-5xl'>
                         Projects
                     </h2>
-                    <p className=' text-lg opacity-90 text-[#E6E1C5] text-center mt-4 w-[45%] xss:w-full tracking-tight'>
+                    <p className=' text-lg opacity-90 text-[#E6E1C5] text-center mt-4 w-[45%] tracking-tight
+                    xss:w-full 
+                    xt:w-1/2'>
                         While Moiz has worked on a couple of other projects as well, here a few of them
                     </p>
                 </div>
