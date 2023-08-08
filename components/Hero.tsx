@@ -3,6 +3,8 @@ import Section from './Section';
 import Button from './Button';
 import Link from 'next/link';
 import { Balancer } from 'react-wrap-balancer';
+import Image from 'next/image';
+import spiral from '../public/3dImages/clay.png'
 
 
 const Hero = () => {
@@ -29,6 +31,7 @@ const Hero = () => {
                     <Button>
                         Poke me
                     </Button>
+
                 </div>
             </div>
         </Section>
