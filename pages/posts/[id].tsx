@@ -49,7 +49,7 @@ const Post = ({ postsData }: PostsDataProps) => {
                 </Head>
 
                 <div className=" grid place-items-center
-                xss:mt-32 xss:mx-4">
+                xss:mt-24 xss:mx-4">
                     <article>
                         <div className=" flex flex-col justify-around items-center
                         xss:mb-10 xss:flex xss:flex-col xss:justify-between xss:items-start border-b-2  border-[#e6e1c561]">
@@ -71,7 +71,7 @@ const Post = ({ postsData }: PostsDataProps) => {
                             <div className="flex flex-row justify-between items-center w-full font-medium
                             xss:my-5">
                                 <div className=" flex flex-row justify-start items-center">
-                                    <div className=" rounded-full overflow-hidden
+                                    <div className=" rounded-full overflow-hidden font-medium
                                 xss:h-10 xss:w-10 xss:mt-4">
                                         <Image src={me} alt="moiz" quality={100} priority />
                                     </div>
