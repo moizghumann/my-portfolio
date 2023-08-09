@@ -53,6 +53,12 @@ const Post = ({ postsData }: PostsDataProps) => {
                     <article>
                         <div className=" flex flex-col justify-around items-center
                         xss:mb-10 xss:flex xss:flex-col xss:justify-between xss:items-start border-b-2  border-[#e6e1c561]">
+                            <div className=" flex flex-row justify-between items-center">
+                                <Link href={'/blogs'} className="xss:mb-4 font-semibold xss:text-base opacity-70 border-[3px] hover:border-[4px] hover:border-[#cbf420] border-[#e6e1c561] xss:py-1 xss:px-3 rounded-3xl">
+                                    👈 Back
+                                </Link>
+
+                            </div>
                             <h1 className="  text-center text-[#CEFF1A]
                             xss:font-semibold xss:text-3xl xss:mb-2 xss:text-start">
                                 <Balancer>
