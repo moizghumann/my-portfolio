@@ -10,7 +10,7 @@ const Showcase = () => {
         <>
             <Section>
 
-                <div className=' grid place-items-center 
+                <div className=' grid place-items-center relative
                 '>
                     <h2 className=' text-center font-semibold tracking-tight text-[#CEFF1A]
                     xss:font-bold xss:text-4xl
