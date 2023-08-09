@@ -52,7 +52,7 @@ const Post = ({ postsData }: PostsDataProps) => {
                 xss:mt-32 xss:mx-4">
                     <article>
                         <div className=" flex flex-col justify-around items-center
-                        xss:mb-10 xss:flex xss:flex-col xss:justify-between xss:items-start border-b-2  border-[#e6e1c561] xss:pb-5">
+                        xss:mb-10 xss:flex xss:flex-col xss:justify-between xss:items-start border-b-2  border-[#e6e1c561]">
                             <h1 className="  text-center text-[#CEFF1A]
                             xss:font-semibold xss:text-3xl xss:mb-2 xss:text-start">
                                 <Balancer>
