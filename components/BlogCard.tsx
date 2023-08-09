@@ -3,10 +3,10 @@ import lofi from '../public/blogImages/Lofi Apartments.jpeg'
 import Image from 'next/image'
 
 interface BlogCardProp {
-    heading: string;
+    title: string
 }
 
-const BlogCard = ({ heading }: BlogCardProp) => {
+const BlogCard = ({ title }: BlogCardProp) => {
     return (
         <div className="max-w-sm rounded-lg shadow">
 
@@ -24,7 +24,7 @@ const BlogCard = ({ heading }: BlogCardProp) => {
             <div className="pt-5 pr-2">
                 <h6 className=' text-sm xss:text-[10px] font-medium xss:font-semibold uppercase'>Tech</h6>
                 <h5 className="mb-2 text-2xl xss:text-xl font-medium tracking-tight ">
-                    {heading}
+                    {title}
                 </h5>
 
             </div>

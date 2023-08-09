@@ -7,6 +7,8 @@ import Layout from '../components/layout'
 
 import { GetStaticProps } from 'next';
 import { PostData, getSortedPostsData } from '../lib/posts';
+import BlogsHeading from '../components/BlogsHeading'
+import BlogCard from '../components/BlogCard'
 
 // getStaticProps can only be exported from a page. You can’t export it from non-page files.
 // As getStaticProps runs only on the server-side, it will never run on the client-side.
@@ -23,15 +25,29 @@ export const getStaticProps: GetStaticProps = async () => {
     }
 }
 
-interface HomeProps {
+interface BlogsProps {
     allPostsData: PostData[]
 }
 
-const Blogs = ({ allPostsData }: HomeProps) => {
+
+const Blogs = ({ allPostsData }: BlogsProps) => {
+    console.log(allPostsData)
     return (
         <Layout>
             <Section >
-                <BlogsSections blogsData={allPostsData} />
+                <BlogsHeading heading={'My thoughts, learnings, and journey through these blogs'} />
+                <div className='  w-full m-0 p-0 mb-40'>
+                    <div className=' grid grid-cols-4 gap-8 xl:grid-cols-4 xm:grid-cols-4 xt:grid-cols-3 xs:grid-cols-1
+                    xss:grid-cols-2 xss:px-4 xss:gap-4 cursor-pointer'>
+
+                        {/* <BlogCard heading='Noteworthy technology acquisitions 2021' /> */}
+                        {allPostsData.map(({ id, title }) =>
+                            <Link href={`/posts/${id}`} key={id}>
+                                <BlogCard title={title} />
+                            </Link>
+                        )}
+                    </div>
+                </div>
 
             </Section>
         </Layout>
