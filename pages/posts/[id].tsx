@@ -51,29 +51,30 @@ const Post = ({ postsData }: PostsDataProps) => {
                 xss:mt-32 xss:mx-4">
                     <article>
                         <div className=" flex flex-col justify-around items-center
-                        xss:mb-10 xss:flex xss:flex-col xss:justify-between xss:items-start">
+                        xss:mb-10 xss:flex xss:flex-col xss:justify-between xss:items-start border-b-2  border-[#e6e1c561] xss:pb-5">
                             <h1 className="  text-center text-[#CEFF1A]
                             xss:font-semibold xss:text-3xl xss:mb-2 xss:text-start">
                                 <Balancer>
                                     {postsData.title}
                                 </Balancer>
                             </h1>
-                            <div className=" text-center opacity-70">
+                            <div className=" text-center opacity-70 xss:text-sm font-medium">
                                 <BlogDate date={postsData.date} />
                             </div>
-                            <div className="flex flex-row justify-between items-center w-full">
+                            <div className="flex flex-row justify-between items-center w-full font-medium
+                            xss:mt-5">
                                 <div className=" flex flex-row justify-start items-center">
                                     <div className=" rounded-full overflow-hidden
                                 xss:h-10 xss:w-10 xss:mt-4">
                                         <Image src={me} alt="moiz" quality={100} priority />
                                     </div>
-                                    <h5 className=" text-sm opacity-70">Moiz Ghuman</h5>
+                                    <h5 className=" text-sm opacity-70 xss:ml-2 xss:w-1/2 xss:leading-tight xss:mt-2">Moiz Ghuman</h5>
                                 </div>
 
-                                <h6 className=" xss:text-sm opacity-70">3 min read</h6>
+                                <h6 className=" xss:text-sm opacity-70 ">3 min read</h6>
                             </div>
                         </div>
-                        <div className=" leading-relaxed"
+                        <div className=" leading-relaxed "
                             dangerouslySetInnerHTML={{ __html: postsData.contentHtml }}
                         />
                     </article>
