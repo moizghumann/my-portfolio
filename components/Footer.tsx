@@ -14,7 +14,7 @@ const Footer = () => {
         xt:mx-10
         xl:mx-24'>
             <div className=' mx-10 w-full rounded-2xl px-5 mb-5 h-20 bg-[#B8DE1E] flex flex-row justify-between items-center
-            xss:mb-2 xss:py-4 xss:h-fit 
+            xss:mb-2 xss:py-4 xss:h-fit xss:px-[13px]
             xs:px-4 xs:h-14 xs:py-8
             xt:mb-3
             xl:py-10 xl:px-5'>

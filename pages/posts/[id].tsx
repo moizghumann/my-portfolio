@@ -11,6 +11,7 @@ import Section from "../../components/Section";
 import { Balancer } from "react-wrap-balancer";
 import Image from "next/image";
 import me from '../../public/images/ultimate_(1)-transformed.jpeg'
+import Footer from "../../components/Footer";
 
 // When you export a function called getStaticPaths (Static Site Generation) from a page that uses dynamic routes, Next.js will statically pre-render all the paths specified by getStaticPaths.
 interface PostsDataProps {
@@ -62,30 +63,32 @@ const Post = ({ postsData }: PostsDataProps) => {
                                 <BlogDate date={postsData.date} />
                             </div>
                             <div className="flex flex-row justify-between items-center w-full font-medium
-                            xss:mt-5">
+                            xss:my-5">
                                 <div className=" flex flex-row justify-start items-center">
                                     <div className=" rounded-full overflow-hidden
                                 xss:h-10 xss:w-10 xss:mt-4">
                                         <Image src={me} alt="moiz" quality={100} priority />
                                     </div>
-                                    <h5 className=" text-sm opacity-70 xss:ml-2 xss:w-1/2 xss:leading-tight xss:mt-2">Moiz Ghuman</h5>
+                                    <h5 className=" text-sm opacity-70 xss:ml-2 xss:w-1/2 xss:leading-tight xss:mt-3">Moiz Ghuman</h5>
                                 </div>
 
                                 <h6 className=" xss:text-sm opacity-70 ">3 min read</h6>
                             </div>
                         </div>
-                        <div className=" leading-relaxed "
+                        <div className=" leading-relaxed xss:mb-8"
                             dangerouslySetInnerHTML={{ __html: postsData.contentHtml }}
                         />
+                        <Link href={'/'} className={button.link}>
+                            <Button>
+                                Back to Home
+                            </Button>
+                        </Link>
                     </article>
-
-                    <Link href={'/'} className={button.link}>
-                        <Button>
-                            Back to Home
-                        </Button>
-                    </Link>
                 </div>
+
             </Section>
+
+            <Footer />
         </>
     )
 }

@@ -9,6 +9,7 @@ import { GetStaticProps } from 'next';
 import { PostData, getSortedPostsData } from '../lib/posts';
 import BlogsHeading from '../components/BlogsHeading'
 import BlogCard from '../components/BlogCard'
+import Footer from '../components/Footer'
 
 // getStaticProps can only be exported from a page. You can’t export it from non-page files.
 // As getStaticProps runs only on the server-side, it will never run on the client-side.
