@@ -1,0 +1,20 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: solid;
+    border-color: antiquewhite;
+    border-radius: 5px;
+    color: black;
+    background-color: #B9E617;
+    width: inherit;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.navInfo {
+    background-color: aqua;
+}

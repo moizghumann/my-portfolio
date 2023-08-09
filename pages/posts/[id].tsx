@@ -51,9 +51,9 @@ const Post = ({ postsData }: PostsDataProps) => {
                 xss:mt-32 xss:mx-4">
                     <article>
                         <div className=" flex flex-col justify-around items-center
-                        xss:mb-10">
+                        xss:mb-10 xss:flex xss:flex-col xss:justify-between xss:items-start">
                             <h1 className="  text-center text-[#CEFF1A]
-                            xss:font-semibold xss:text-3xl xss:mb-2">
+                            xss:font-semibold xss:text-3xl xss:mb-2 xss:text-start">
                                 <Balancer>
                                     {postsData.title}
                                 </Balancer>
@@ -61,12 +61,16 @@ const Post = ({ postsData }: PostsDataProps) => {
                             <div className=" text-center opacity-70">
                                 <BlogDate date={postsData.date} />
                             </div>
-                            <div className="flex flex-row justify-between items-center">
-                                <div className=" rounded-full overflow-hidden
+                            <div className="flex flex-row justify-between items-center w-full">
+                                <div className=" flex flex-row justify-start items-center">
+                                    <div className=" rounded-full overflow-hidden
                                 xss:h-10 xss:w-10 xss:mt-4">
-                                    <Image src={me} alt="moiz" quality={100} priority />
+                                        <Image src={me} alt="moiz" quality={100} priority />
+                                    </div>
+                                    <h5 className=" text-sm opacity-70">Moiz Ghuman</h5>
                                 </div>
-                                <h5 className=" text-sm w-1/2">Moiz Ghuman</h5>
+
+                                <h6 className=" xss:text-sm opacity-70">3 min read</h6>
                             </div>
                         </div>
                         <div className=" leading-relaxed"
