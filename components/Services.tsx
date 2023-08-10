@@ -18,20 +18,20 @@ const Services = () => {
                 xs:mt-3 xs:text-[35px]
                 xss:mt-2 xss:text-[33px] xss:font-semibold
                 xt:mt-4 xt:text-[42px] tracking-tight
-                xl:text-6xl'>
-                    <div className=' py-4 xss:py-2 xs:py-3 border-t-2  border-[#e6e1c561]'>
+                xl:text-6xl xl:font-medium'>
+                    <div className=' py-4 xss:py-2 xs:py-3 xl:py-4 border-t-2  border-[#e6e1c561]'>
                         Design user interfaces
                     </div>
-                    <div className=' py-4 xss:py-2 xs:py-3 border-t-2 border-[#e6e1c561]'>
+                    <div className=' py-4 xss:py-2 xs:py-3 xl:py-4 border-t-2 border-[#e6e1c561]'>
                         Craft engaging user experiences
                     </div>
-                    <div className=' py-4 xss:py-2 xs:py-3 border-t-2 border-[#e6e1c561]'>
+                    <div className=' py-4 xss:py-2 xs:py-3 xl:py-4 border-t-2 border-[#e6e1c561]'>
                         Develop design into websites
                     </div>
-                    <div className=' py-4 xss:py-2 xs:py-3 border-t-2 border-[#e6e1c561]'>
+                    <div className=' py-4 xss:py-2 xs:py-3 xl:py-4 border-t-2 border-[#e6e1c561]'>
                         Connect frontend to backend APIs
                     </div>
-                    <div className=' py-4 xss:py-2 xs:py-3 border-t-2 border-[#e6e1c561]'>
+                    <div className=' py-4 xss:py-2 xs:py-3 xl:py-4 border-t-2 border-[#e6e1c561]'>
                         Manage the product
                     </div>
                     <div className='border-t-2 border-[#e6e1c561]'></div>
