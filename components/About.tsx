@@ -11,6 +11,7 @@ const About = () => {
             xs:gap-2 xs:mt-0 xs:grid-cols-12 
             xss:grid-cols-7 xss:gap-2
             xt:grid-cols-12 xt:mt-0 xt:mx-10
+            xl:mt-44
             '>
                 <div className=' rounded-xl overflow-hidden relative 
                 xs:col-span-7 
