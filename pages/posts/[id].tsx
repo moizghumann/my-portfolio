@@ -48,7 +48,7 @@ const Post = ({ postsData }: PostsDataProps) => {
 
                 <div className=" grid place-items-center
                 xss:mt-24 xss:mx-4">
-                    <article>
+                    <article className="mb-14">
                         <div className=" flex flex-col justify-around items-center
                         xss:mb-10 xss:flex xss:flex-col xss:justify-between xss:items-start border-b-2  border-[#e6e1c561]">
                             <div className=" flex flex-row justify-between items-center">
@@ -57,8 +57,9 @@ const Post = ({ postsData }: PostsDataProps) => {
                                 </Link>
 
                             </div>
-                            <h1 className="  text-center text-[#CEFF1A]
-                            xss:font-semibold xss:text-3xl xss:mb-2 xss:text-start">
+                            <h1 className="  text-center text-[#CEFF1A] font-semibold
+                            xss:text-3xl xss:mb-2 xss:text-start
+                            xs:text-4xl xs:mb-2 xs:text-start">
                                 <Balancer>
                                     {postsData.title}
                                 </Balancer>
