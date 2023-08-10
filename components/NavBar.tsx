@@ -12,7 +12,7 @@ const NavBar = () => {
         xl:pr-[120px] xl:pl-10'>
             <div className='flex flex-row justify-between items-center h-20 w-full px-6 xss:px-4 xss:py-3 
             xss:h-fit ring-2 ring-[#E6E1C5] rounded-3xl xss:rounded-2xl mt-7 overflow-x-hidden backdrop-blur-sm
-            xl:px-6 xl:py-3 xl:rounded-3xl
+            xl:px-6 xl:py-3 xl:rounded-2xl
             '>
                 <div>
                     <Link href={'/'}>
