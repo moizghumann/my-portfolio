@@ -86,8 +86,9 @@ const Showcase = () => {
                                 <ArrowButton />
                             </div>
                         </div>
-                        <div className='bg-[#e6e1c5] shadow-lg shadow-[#090D15] rounded-2xl h-fit '>
-                            <div className=' xss:p-6 flex flex-col justify-between items-start xl:col-span-1'>
+                        <div className='bg-[#e6e1c5] shadow-lg shadow-[#090D15] rounded-2xl h-fit xl:h-full '>
+                            <div className=' xss:p-6 flex flex-col justify-between items-start xl:col-span-1 
+                            xl:h-full'>
 
                                 <div>
                                     <ShowcaseIcon />
