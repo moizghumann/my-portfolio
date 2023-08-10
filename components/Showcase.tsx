@@ -4,6 +4,7 @@ import Section from './Section'
 import ArrowButton from './ArrowButton'
 import ShowcaseIcon from './ShowcaseIcon'
 import goku from '../public/12916.gif'
+import { Balancer } from 'react-wrap-balancer'
 
 const Showcase = () => {
     return (
@@ -11,7 +12,10 @@ const Showcase = () => {
             <Section>
 
                 <div className=' grid place-items-center relative
-                '>
+                xss:pt-0
+                xs:pt-20
+                xt:pt-0
+                xl:pt-0'>
                     <h2 className=' text-center font-semibold tracking-tight text-[#CEFF1A]
                     xss:font-bold xss:text-4xl
                     xt:text-5xl
@@ -20,8 +24,11 @@ const Showcase = () => {
                     </h2>
                     <p className=' text-lg opacity-90 text-[#E6E1C5] text-center mt-4 w-[45%] tracking-tight
                     xss:w-3/5 
-                    xt:w-1/2'>
-                        While Moiz has worked on a couple of other projects as well, here a few of them
+                    xt:w-1/2
+                    xs:w-fit'>
+                        <Balancer>
+                            While Moiz has worked on a couple of other projects as well, here are a few of them
+                        </Balancer>
                     </p>
                 </div>
 
