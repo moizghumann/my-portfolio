@@ -12,7 +12,7 @@ const Hero = () => {
             xt:h-screen xt:mb-0 xt:mt-44
             xl:mt-56'>
 
-                <h1 className='xl:text-7xl xs:text-[45px] xs:leading-[50px] xss:text-4xl mx-auto text-center
+                <h1 className='xl:text-7xl xs:text-[40px]  xss:text-4xl mx-auto text-center
                 xt:text-5xl 
                 font-semibold xss:font-bold max-w-4xl  tracking-tight text-[#e6e1c5] opacity-90'>
                     <Balancer>

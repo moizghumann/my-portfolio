@@ -4,9 +4,7 @@ import { PostData, getAllPostsIDs, getPostData } from "../../lib/posts";
 import button from '../../components/styles/Button.module.css'
 import { GetStaticPaths, GetStaticProps } from "next";
 import Head from "next/head";
-import utils from '../../styles/utils.module.css'
 import BlogDate from "../../components/Date";
-import Layout from "../../components/layout";
 import Section from "../../components/Section";
 import { Balancer } from "react-wrap-balancer";
 import Image from "next/image";

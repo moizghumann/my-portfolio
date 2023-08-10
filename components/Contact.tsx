@@ -10,8 +10,8 @@ const Contact = () => {
                 xss:rounded-xl
                 xt:rounded-2xl xt:px-4 xt:pt-2 xt:pb-4'>
                     <h1 className='text-[#CEFF1A] hover:text-[#0E1421] text-7xl font-medium tracking-tight text-center
-                    xs:text-4xl 
-                    xss:text-[27px]
+                    xs:text-3xl 
+                    xss:text-[27px] xss:font-semibold
                     xt:text-6xl'>
                         moizghuman@gmail.com
                     </h1>
