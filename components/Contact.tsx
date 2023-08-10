@@ -4,7 +4,7 @@ import Section from './Section'
 const Contact = () => {
     return (
         <Section>
-            <div className='  flex flex-col justify-center items-center mb-20 xs:mb-0 xs:pb-3 xss:pb-[14px] xss:mb-0 xt:mb-8 xl:mb-40 xl:mt-40'>
+            <div className='  flex flex-col justify-center items-center mb-20 xs:mb-32 xs:pb-3 xss:pb-[14px] xss:mb-0 xt:mb-8 xl:mb-40 xl:mt-40'>
                 <div className=' p-2 px-4 pb-4 xs:pb-2 xss:pb-[10px] xs:pt-1 xs:px-2 xss:px-[10px] xss:mt-0 border-2 hover:bg-[#E6E1C5] hover:cursor-pointer border-[#E6E1C5] rounded-2xl mx-4 mt-10 mb-6 w-fit
                 xs:rounded-xl 
                 xss:rounded-xl
