@@ -17,7 +17,7 @@ const About = () => {
                 xs:col-span-7 
                 xss:col-span-4
                 xt:col-span-7
-                xl:col-span-9 '>
+                xl:col-span-8 '>
                     <Image src={anotherme}
                         alt='moiz'
                         fill={true}
@@ -28,7 +28,7 @@ const About = () => {
                 </div>
                 <div className='flex flex-col justify-around items-center border-2 border-[#e6e1c5] rounded-xl p-5 xs:p-2 xs:col-span-5 xss:p-2 min-w-fit text-9xl xs:text-[55px] xss:text-5xl
                 xt:text-[80px] xt:col-span-5
-                xl:col-span-3 xl:text-[100px] xl:items-start'>
+                xl:col-span-4 xl:text-[100px] xl:items-start'>
                     <h1 className='  text-[#e6e1c5] font-semibold tracking-tight text-center xl:text-start'>The one</h1>
                     <h1 className='  text-[#e6e1c5] font-semibold tracking-tight'>Who</h1>
                     <h1 className='  text-[#e6e1c5] font-semibold tracking-tight'>Gets</h1>
