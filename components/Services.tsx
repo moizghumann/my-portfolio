@@ -6,7 +6,7 @@ const Services = () => {
         <Section>
             <div className=' h-full mt-20 
             xs:mt-10
-            xt:mt-32
+            xt:mt-32 xt:mx-10
             xl:mx-10'>
                 <h1 className=' text-4xl font-semibold tracking-tight text-[#cbf420] opacity-90
                 xss:text-3xl 

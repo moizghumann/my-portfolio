@@ -72,8 +72,8 @@ const Showcase = () => {
                         </div>
                     </div>
                     <div className='xt:grid xs:grid grid xs:gap-5 xt:gap-5 xss:gap-5 xl:col-span-5 xt:grid-cols-2 xt:col-span-2 xs: grid-cols-1 '>
-                        <div className=' xl:col-span-1 xt:col-span-1 bg-[#e6e1c5] shadow-lg shadow-[#090D15] rounded-2xl xss:gap-5'>
-                            <div className=' xss:p-6 flex flex-col justify-between items-start h-full '>
+                        <div className=' xl:col-span-1 xt:col-span-1 bg-[#e6e1c5] shadow-lg shadow-[#090D15] rounded-2xl xss:gap-5 h-fit xl:h-full'>
+                            <div className=' xss:p-6 flex flex-col justify-between items-start  xl:h-full'>
 
                                 <div>
                                     <ShowcaseIcon />
@@ -86,8 +86,8 @@ const Showcase = () => {
                                 <ArrowButton />
                             </div>
                         </div>
-                        <div className='bg-[#e6e1c5] shadow-lg shadow-[#090D15] rounded-2xl '>
-                            <div className=' xss:p-6 flex flex-col justify-between items-start h-full xl:col-span-1'>
+                        <div className='bg-[#e6e1c5] shadow-lg shadow-[#090D15] rounded-2xl h-fit '>
+                            <div className=' xss:p-6 flex flex-col justify-between items-start xl:col-span-1'>
 
                                 <div>
                                     <ShowcaseIcon />
