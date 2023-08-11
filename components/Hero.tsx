@@ -3,6 +3,8 @@ import Section from './Section';
 import Button from './Button';
 import Link from 'next/link';
 import { Balancer } from 'react-wrap-balancer';
+import Image from 'next/image';
+import bolt from '../public/3dImages/double-l-shape.png'
 
 
 const Hero = () => {
@@ -22,7 +24,10 @@ const Hero = () => {
                         </span>
                     </Balancer>
                 </h1>
-
+                {/* <div className=' absolute left-32 bottom-44
+                xl:w-40 xl:h-40'>
+                    <Image src={bolt} alt='bolt' />
+                </div> */}
 
                 <div className=' flex flex-row justify-center gap-4 mt-14'>
                     <Link href={'/blogs'}>
