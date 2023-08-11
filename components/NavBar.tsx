@@ -42,7 +42,7 @@ const NavBar = () => {
 
                     <text>About</text>
                     <div className=' flex justify-center items-center py-2 px-3 bg-[#bf375d] opacity-100 rounded-lg'>
-                        <text className='text-[#E6E1C5]'>Contact me</text>
+                        <text className='text-[#E6E1C5] text-sm'>Contact me</text>
                     </div>
                 </div>
                 <MobileNavButton />

@@ -70,7 +70,7 @@ button.buttonSax:active::before {
 .link {
 
     font-size: 0.93em;
-    font-weight: 740;
+    font-weight: 800;
     letter-spacing: -0.025em;
     color: var(--text);
     text-transform: uppercase;
