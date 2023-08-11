@@ -32,7 +32,7 @@ const NavBar = () => {
                     </Link>
                 </div>
 
-                <div className=' xl:flex xl:items-center xl:gap-6  uppercase text-base font-medium 
+                <div className=' xl:flex xl:items-center xl:gap-6  uppercase text-sm font-medium 
                 xss:hidden
                 xl:visible'>
                     <Link href={'/blogs'} className=' hover:text-[#b8de1e]'>
