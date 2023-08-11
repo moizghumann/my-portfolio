@@ -6,7 +6,7 @@ import MobileNavButton from './MobileNavButton'
 
 const NavBar = () => {
     return (
-        <nav className='fixed w-full h-full z-10 top-0  mb-5 
+        <nav className='fixed w-full h-fit z-10 top-0  mb-5 
         xss:px-5
         xt:px-0 xt:mx-10 xt:pr-[72px]
         xl:pr-[120px] xl:pl-10'>
