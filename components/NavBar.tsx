@@ -32,7 +32,7 @@ const NavBar = () => {
                     </Link>
                 </div>
 
-                <div className=' xl:flex xl:items-center xl:gap-6  uppercase font-medium 
+                <div className=' xl:flex xl:items-center xl:gap-6  uppercase text-lg font-medium 
                 xss:hidden
                 xl:visible'>
                     <Link href={'/blogs'} className=' hover:text-[#b8de1e]'>
@@ -41,8 +41,8 @@ const NavBar = () => {
                     <text>Services</text>
 
                     <text>About</text>
-                    <div className=' flex justify-center items-center py-2 px-3 bg-[#d7f553c9] rounded-lg'>
-                        <text className='text-[#0E1421]'>Contact me</text>
+                    <div className=' flex justify-center items-center py-2 px-3 bg-[#bf375d] opacity-100 rounded-lg'>
+                        <text className='text-[#E6E1C5]'>Contact me</text>
                     </div>
                 </div>
                 <MobileNavButton />
