@@ -3,19 +3,19 @@ import Section from './Section';
 import Button from './Button';
 import Link from 'next/link';
 import { Balancer } from 'react-wrap-balancer';
-import Image from 'next/image';
-import bolt from '../public/3dImages/double-l-shape.png'
+
 
 
 const Hero = () => {
     return (
         <Section>
             <div className=' block h-full mt-56 xs:mt-36 xss:mt-36 mb-28 
-            xt:h-screen xt:mb-0 xt:mt-44
+            xs:h-full xs:pt-24 xs:mb-44
+            xt:h-screen xt:mb-0 xt:pt-28
             xl:pt-56 xl:mt-0'>
 
-                <h1 className='xl:text-7xl xs:text-[40px]  xss:text-4xl mx-auto text-center
-                xt:text-5xl 
+                <h1 className='xl:text-7xl xs:text-5xl  xss:text-4xl mx-auto text-center
+                xt:text-6xl 
                 font-semibold xss:font-bold max-w-4xl  tracking-tight text-[#e6e1c5] opacity-90'>
                     <Balancer>
                         Moiz focuses on crafting meaningful experiences as an

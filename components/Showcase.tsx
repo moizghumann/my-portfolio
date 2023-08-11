@@ -13,7 +13,7 @@ const Showcase = () => {
 
                 <div className=' grid place-items-center relative
                 xss:pt-0
-                xs:pt-20
+                xs:pt-0
                 xt:pt-0
                 xl:pt-0'>
                     <h2 className=' text-center font-semibold tracking-tight text-[#CEFF1A]

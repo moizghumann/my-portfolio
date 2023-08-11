@@ -20,7 +20,8 @@ const MobileNavButton = () => {
     return (
         <>
 
-            <button aria-label="Toggle Menu" onClick={onToggleNav} className="relative xl:hidden xt:hidden left-96 bottom-11">
+            <button aria-label="Toggle Menu" onClick={onToggleNav} className="relative xl:hidden xt:hidden
+            xss:visible xs:visible left-96 bottom-11">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
@@ -35,7 +36,7 @@ const MobileNavButton = () => {
                 </svg>
             </button>
             <div
-                className={`absolute inset-10 left-0 top-0 z-40 h-screen w-screen transform opacity-95 dark:opacity-[0.98] bg-white duration-300 ease-in-out dark:bg-gray-950 ${navShow ? 'translate-x-0' : 'translate-x-full'
+                className={`absolute inset-10 left-0 top-0 z-50 h-screen w-screen transform opacity-95 dark:opacity-[0.98] bg-white duration-300 ease-in-out dark:bg-gray-950 ${navShow ? 'translate-x-0' : 'translate-x-full'
                     }`}
             >
                 <div className="flex justify-end">
@@ -59,7 +60,8 @@ const MobileNavButton = () => {
                         <div key={link.title} className="px-12 py-4">
                             <Link
                                 href={link.href}
-                                className="text-2xl font-bold tracking-widest text-gray-900 dark:text-gray-100"
+                                className="text-2xl font-bold tracking-widest text-gray-900
+                                 dark:text-gray-100"
                                 onClick={onToggleNav}
                             >
                                 {link.title}
