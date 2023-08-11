@@ -12,13 +12,13 @@ const NavBar = () => {
         xl:pr-[120px] xl:pl-10'>
             <div className='flex flex-row justify-between items-center h-20 w-full px-6 xss:px-4 xss:py-3 
             xss:h-fit ring-2 ring-[#E6E1C5] rounded-3xl xss:rounded-2xl mt-7 overflow-x-hidden backdrop-blur-sm
-            xl:px-6 xl:py-3 xl:rounded-2xl
+            xl:px-6 xl:py-4 xl:rounded-2xl
             '>
                 <div>
                     <Link href={'/'}>
                         <div className=' xss:w-8 xss:h-8
                         xt:w-11 xt:h-11
-                        xl:w-14 xl:h-14'>
+                        xl:w-13 xl:h-13'>
                             <Image
                                 src={logo}
                                 alt='logo'
@@ -42,7 +42,7 @@ const NavBar = () => {
 
                     <text>About</text>
                     <div className=' flex justify-center items-center py-2 px-3 bg-[#bf375d] opacity-100 rounded-lg'>
-                        <text className='text-[#E6E1C5] text-sm'>Contact me</text>
+                        <text className='text-[#E6E1C5] text-sm font-medium'>Contact me</text>
                     </div>
                 </div>
                 <MobileNavButton />

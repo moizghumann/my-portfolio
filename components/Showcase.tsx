@@ -49,7 +49,10 @@ const Showcase = () => {
                                     Gameverse is a platform for exploring and discovering video games, where users can find information about games, view their details, and filter through different genres, platforms and more.
                                 </p>
                             </div>
-                            <ArrowButton />
+                            <a href='https://game-verse.vercel.app/' target='_blank' className=' no-underline'>
+                                <ArrowButton />
+                            </a>
+
 
                         </div>
                     </div>
@@ -74,7 +77,9 @@ const Showcase = () => {
                                     Implemented efficient winning algorithm,ensuring accurate game outcomes.Employed clean, modular code for efficiency.
                                 </p>
                             </div>
-                            <ArrowButton />
+                            <a href='https://tic-tac-toe-game-lyart-three.vercel.app/' target='_blank' className=' no-underline'>
+                                <ArrowButton />
+                            </a>
 
                         </div>
                     </div>
@@ -87,10 +92,12 @@ const Showcase = () => {
                                     <h3 className=' tracking-tight text-start font-semibold xss:font-bold xss:text-3xl text-2xl text-[#0e1420] pt-[3px] pb-[7px]'>
                                         Todo App
                                     </h3>
-                                    <p className='text-[#0e1420] w-[95%] xss:w-full xss:mb-7'>Interactive Todo game using React, TypeScript, and React Query</p>
+                                    <p className='text-[#0e1420] w-[95%] xss:w-full xss:mb-7'>Interactive Todo game using React, TypeScript, and React Query.</p>
                                 </div>
 
-                                <ArrowButton />
+                                <a href='https://expense-tracker-gehc.vercel.app/' target='_blank' className=' no-underline'>
+                                    <ArrowButton />
+                                </a>
                             </div>
                         </div>
                         <div className='bg-[#e6e1c5] shadow-lg shadow-[#090D15] rounded-2xl h-fit xl:h-full '>
@@ -102,10 +109,12 @@ const Showcase = () => {
                                     <h3 className='text-start tracking-tight font-semibold xss:font-bold xss:text-3xl text-2xl text-[#0e1420] pt-[3px] pb-[7px]'>
                                         Expense Tracker
                                     </h3>
-                                    <p className='text-[#0e1420] w-[95%] xss:w-full xss:mb-7'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <p className='text-[#0e1420] w-[95%] xss:w-full xss:mb-7'>Developed an Expense Tracker using Bootstrap, React and React Hook forms with Zod for schema validation.</p>
                                 </div>
 
-                                <ArrowButton />
+                                <a href='https://expense-tracker-gehc.vercel.app/' target='_blank' className=' no-underline'>
+                                    <ArrowButton />
+                                </a>
                             </div>
 
                         </div>
