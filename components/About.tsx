@@ -10,7 +10,7 @@ const About = () => {
 
             <div className=' grid grid-cols-2 gap-8 mt-20 
             xs:gap-3 xs:mt-0 xs:grid-cols-12
-            xss:grid-cols-7 xss:gap-2
+            xss:grid-cols-7 xss:gap-3
             xt:grid-cols-12 xt:mt-0 xt:mx-10 xt:gap-4
             xl:mt-44 xl:grid-cols-12 xl:gap-5
             '>
