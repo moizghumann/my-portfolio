@@ -1,6 +1,6 @@
 import { Hydrate, QueryClient, QueryClientProvider } from "@tanstack/react-query"
-import { ReactQueryDevtools } from "@tanstack/react-query-devtools"
 import type { AppProps } from "next/app"
+import { Analytics } from "@vercel/analytics/react"
 import { useState } from "react"
 import '../styles/globals.css'
 import { Inter } from '@next/font/google'
@@ -26,15 +26,16 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
 
     return (
         // QueryClientProvider lets us share cache with all the components it wraps
-        <QueryClientProvider client={queryClient}>
-            <Hydrate state={pageProps.dehydratedState}>
-                <main className={`${inter.variable} font-rub`}>
-                    <Component {...pageProps} />
-                </main>
-
-            </Hydrate>
-            <ReactQueryDevtools initialIsOpen={false} />
-        </QueryClientProvider>
+        <>
+            <QueryClientProvider client={queryClient}>
+                <Hydrate state={pageProps.dehydratedState}>
+                    <main className={`${inter.variable} font-rub`}>
+                        <Component {...pageProps} />
+                    </main>
+                </Hydrate>
+            </QueryClientProvider>
+            <Analytics />
+        </>
     );
 }
 export default MyApp;
