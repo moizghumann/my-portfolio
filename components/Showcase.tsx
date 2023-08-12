@@ -31,7 +31,7 @@ const Showcase = () => {
                             Projects
                         </h2>
                         <p className=' text-lg font-medium xl:opacity-80 tracking-tight xl:leading-relaxed xl:text-xlty-90 text-start mt-4 w-[45%]
-                    xss:w-full xss:font-semibold
+                    xss:w-full xss:font-semibold xss:text-xl
                     xt:w-1/2
                     xs:w-fit'>
                             <Balancer>
