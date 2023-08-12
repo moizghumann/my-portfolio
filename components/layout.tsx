@@ -16,7 +16,7 @@ const Layout = ({ children }: Props) => {
         <>
             <Head>
                 <link rel="icon" href="/images/peeps-avatar-alpha.png" />
-                <meta name="Moiz Ghuman" content="A frontend developer pushing limits everyday" />
+                <meta name="Moiz Ghuman" content="Creative Frontend Engineer building experiences with react, typescript, nextjs and tailwindcss." />
                 <meta
                     property="og:image"
                     content={`/images/peeps-avatar-alpha.png`}
