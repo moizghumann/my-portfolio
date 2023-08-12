@@ -37,7 +37,7 @@ const Blogs = ({ allPostsData }: BlogsProps) => {
         <Layout>
             <Section >
                 <BlogsHeading heading={'My thoughts, learnings, and journey through these blogs'} />
-                <div className='  w-full m-0 p-0 mb-40'>
+                <div className=' grid place-items-center  w-full m-0 p-0 mb-40'>
                     <div className=' grid grid-cols-4 gap-8 xl:grid-cols-4 xm:grid-cols-4 xt:grid-cols-3 xs:grid-cols-1 xs:gap-10 xs:px-5
                     xss:grid-cols-2 xss:px-4 xss:gap-4 cursor-pointer'>
 

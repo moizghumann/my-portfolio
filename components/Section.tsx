@@ -10,6 +10,7 @@ const Section = ({ children }: SectionProps) => {
         xss:mx-3
         xs:mb-16 xs:mx-6 xs:mb-15
         xt:mx-6
+        xm:mx-20
         '>
             {children}
         </section>
