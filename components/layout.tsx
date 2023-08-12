@@ -19,7 +19,7 @@ const Layout = ({ children }: Props) => {
                 <meta name="Moiz Ghuman" content="A frontend developer pushing limits everyday" />
                 <meta
                     property="og:image"
-                    content={`https://imgur.com/a/f6HCfYl`}
+                    content={`/images/peeps-avatar-alpha.png`}
                 />
                 <meta name="og:title" content={siteTitle} />
                 <meta name="twitter:card" content="summary_large_image" />
