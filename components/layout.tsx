@@ -15,14 +15,30 @@ const Layout = ({ children }: Props) => {
     return (
         <>
             <Head>
-                <link rel="icon" href="/images/peeps-avatar-alpha.png" />
-                <meta name="Moiz Ghuman" content="Creative Frontend Engineer building experiences with react, typescript, nextjs and tailwindcss." />
+                <title>{siteTitle}</title>
+                <meta
+                    name="description"
+                    content="Creative Frontend Engineer building experiences with react, typescript, nextjs, and tailwindcss."
+                />
+                <meta
+                    property="og:title"
+                    content={siteTitle}
+                />
+                <meta
+                    property="og:description"
+                    content="Creative Frontend Engineer building experiences with react, typescript, nextjs, and tailwindcss."
+                />
                 <meta
                     property="og:image"
-                    content={`/images/peeps-avatar-alpha.png`}
+                    content="/images/peeps-avatar-alpha.png"
+                />
+                <meta
+                    property="og:url"
+                    content="https://nextjs-blog-three-rust-27.vercel.app/"
                 />
                 <meta name="og:title" content={siteTitle} />
                 <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:site" content="@ghumanmoiz" />
             </Head>
 
             <header>
