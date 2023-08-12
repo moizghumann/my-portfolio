@@ -33,8 +33,8 @@ const Showcase = () => {
                 </div>
 
                 <div className='grid gap-5 mt-11 h-fit
-                xl:grid-cols-9 
-                xss:px-10 
+                xl:grid-cols-9 xl:mx-10 
+                xss:px-0
                 xt:grid-cols-2 xt:grid-rows-2
                 xm:mx-28'>
                     <div className='xl:col-span-6 h-full xt:col-span-1  bg-[#e6e1c5] shadow-lg shadow-[#090D15] rounded-2xl'>

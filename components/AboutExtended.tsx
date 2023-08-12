@@ -8,7 +8,7 @@ const AboutExtended = () => {
             xl:text-3xl
             xt:text-3xl
             xs:text-3xl
-            xss:text-3xl '>
+            xss:text-3xl xss:font-semibold'>
                 You have found the kind of frontend whiz who crafts user experiences that go beyond the screen. With a knack for accessible design, I'm your startup's secret weapon, turning early-stage challenges into pixel-perfect solutions that users can't resist!
             </p>
         </div>
