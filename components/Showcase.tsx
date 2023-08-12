@@ -48,7 +48,7 @@ const Showcase = () => {
                                 <h3 className='text-start tracking-tight font-semibold xss:font-bold text-4xl xss:text-3xl text-[#0e1420] pb-2 pt-1'>
                                     GameVerse
                                 </h3>
-                                <p className='text-[#0e1420] font-medium xl:opacity-80 tracking-tight xl:leading-relaxed xl:text-xl w-[70%] xss:w-full xss:mb-6'>
+                                <p className='text-[#0e1420] font-medium xl:opacity-80 tracking-tight xl:leading-relaxed xl:text-xl w-[70%] xss:w-full xss:mb-6 xss:text-lg'>
                                     <Balancer>
                                         Gameverse is a platform for exploring and discovering video games, where users can find information about games, view their details, and filter through different genres, platforms and more.
                                     </Balancer>
@@ -78,7 +78,7 @@ const Showcase = () => {
                                 <h3 className=' tracking-tight text-start font-semibold xss:font-bold xss:text-3xl text-3xl text-[#0e1420] pb-2 pt-1'>
                                     Tic-Tac-Toe Game
                                 </h3>
-                                <p className='text-[#0e1420] font-medium xl:opacity-80 tracking-tight xl:leading-relaxed xl:text-xl w-[90%] xss:w-full xss:mb-6'>
+                                <p className='text-[#0e1420] font-medium xl:opacity-80 tracking-tight xl:leading-relaxed xl:text-xl w-[90%] xss:w-full xss:mb-6 xss:text-lg'>
                                     Implemented efficient winning algorithm,ensuring accurate game outcomes.Employed clean, modular code for efficiency.
                                 </p>
                             </div>
@@ -97,7 +97,7 @@ const Showcase = () => {
                                     <h3 className=' tracking-tight text-start font-semibold xss:font-bold xss:text-3xl text-2xl text-[#0e1420] pt-[3px] pb-2'>
                                         Todo App
                                     </h3>
-                                    <p className='text-[#0e1420] font-medium xl:opacity-80 tracking-tight xl:leading-relaxed xl:text-xl w-[95%] xss:w-full xss:mb-6'>Interactive Todo game using React, TypeScript, and React Query.</p>
+                                    <p className='text-[#0e1420] font-medium xl:opacity-80 tracking-tight xl:leading-relaxed xl:text-xl w-[95%] xss:w-full xss:mb-6 xss:text-lg'>Interactive Todo game using React, TypeScript, and React Query.</p>
                                 </div>
 
                                 <a href='https://expense-tracker-gehc.vercel.app/' target='_blank' className=' no-underline'>
@@ -114,7 +114,7 @@ const Showcase = () => {
                                     <h3 className='text-start tracking-tight font-semibold xss:font-bold xss:text-3xl text-2xl text-[#0e1420] pt-[3px] pb-2'>
                                         Expense Tracker
                                     </h3>
-                                    <p className='text-[#0e1420] font-medium xl:opacity-80 tracking-tight xl:leading-relaxed xl:text-xl w-[95%] xss:w-full xss:mb-6'>Developed an Expense Tracker using Bootstrap, React and React Hook forms with Zod for schema validation.</p>
+                                    <p className='text-[#0e1420] font-medium xl:opacity-80 tracking-tight xl:leading-relaxed xl:text-xl w-[95%] xss:w-full xss:mb-6 xss:text-lg'>Developed an Expense Tracker using Bootstrap, React and React Hook forms with Zod for schema validation.</p>
                                 </div>
 
                                 <a href='https://expense-tracker-gehc.vercel.app/' target='_blank' className=' no-underline'>
