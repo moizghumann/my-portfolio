@@ -5,7 +5,7 @@ import Footer from './Footer';
 
 
 const name = 'Moiz Ghuman';
-export const siteTitle = `Moiz Ghuman's Portfolio Website`;
+export const siteTitle = `Moiz Ghuman`;
 
 interface Props {
     children: ReactNode;
