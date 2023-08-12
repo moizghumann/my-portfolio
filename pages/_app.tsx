@@ -31,10 +31,11 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
                 <Hydrate state={pageProps.dehydratedState}>
                     <main className={`${inter.variable} font-rub`}>
                         <Component {...pageProps} />
+                        <Analytics />
                     </main>
                 </Hydrate>
             </QueryClientProvider>
-            <Analytics />
+
         </>
     );
 }
