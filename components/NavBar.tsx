@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import logo from '../public/images/ultimate_(1)-transformed.jpeg'
+import logo from '../public/images/peeps-avatar-alpha.png'
 import Link from 'next/link'
 import MobileNavButton from './MobileNavButton'
 
@@ -12,13 +12,13 @@ const NavBar = () => {
         xl:pr-[120px] xl:pl-10'>
             <div className=' flex flex-row justify-between items-center h-20 w-full px-6 xss:px-4 xss:py-3 
             xss:h-fit ring-2 ring-[#E6E1C5] rounded-3xl xss:rounded-2xl mt-7 backdrop-blur-sm
-            xl:px-6 xl:py-4 xl:rounded-2xl
+            xl:px-6 xl:py-4 xl:rounded-3xl
             '>
                 <div>
                     <Link href={'/'}>
-                        <div className=' xss:w-8 xss:h-8
+                        <div className=' xss:w-8 xss:h-8 
                         xt:w-11 xt:h-11
-                        xl:w-13 xl:h-13'>
+                        xl:w-14 xl:h-14'>
                             <Image
                                 src={logo}
                                 alt='logo'
