@@ -87,7 +87,7 @@ const Showcase = () => {
 
                         </div>
                     </div>
-                    <div className='xt:grid xs:grid grid xs:gap-5 xt:gap-3 xss:gap-3 xl:col-span-5 xt:grid-cols-2 xt:col-span-2 xs: grid-cols-1'>
+                    <div className='xt:grid xs:grid grid xs:gap-3 xt:gap-3 xss:gap-3 xl:col-span-5 xt:grid-cols-2 xt:col-span-2 xs: grid-cols-1'>
                         <div className=' xl:col-span-1 xt:col-span-1 bg-[#e6e1c5] shadow-lg shadow-[#090D15] rounded-2xl xss:gap-5  h-full xl:h-full'>
                             <div className=' xss:p-4 xl:p-5 flex flex-col justify-between items-start h-full'>
 

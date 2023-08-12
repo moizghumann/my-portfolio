@@ -4,13 +4,13 @@ import Section from './Section'
 const Contact = () => {
     return (
         <Section>
-            <div className='  flex flex-col justify-center items-center mb-20 xs:mb-20 xs:pb-3 xs:pt-7 xss:mb-0 xss:h-fit xss:pb-7 xss:pt-[137px] xt:pb-20 xl:mb-40 xl:mt-40'>
+            <div className='  flex flex-col justify-center items-center mb-20 xs:mb-20 xs:pb-10 xs:pt-7 xss:mb-0 xss:h-fit xss:pb-7 xss:pt-[137px] xt:pb-20 xl:mb-40 xl:mt-40'>
                 <div className=' p-2 px-4 pb-4 xs:pb-2 xss:pb-[10px] xs:pt-1 xs:px-2 xss:px-[10px] xss:mt-0 border-2 hover:bg-[#E6E1C5] transition duration-300 ease-in-out hover:cursor-pointer border-[#E6E1C5] rounded-2xl mx-4 mt-10 mb-6 w-fit
                 xs:rounded-xl 
                 xss:rounded-xl
                 xt:rounded-2xl xt:px-4 xt:pt-2 xt:pb-4'>
                     <h1 className='text-[#CEFF1A] hover:text-[#0E1421] transition duration-300 ease-in-out text-7xl font-medium tracking-tight text-center
-                    xs:text-3xl 
+                    xs:text-4xl 
                     xss:text-[27px] xss:font-semibold
                     xt:text-5xl xt:font-medium
                     xl:text-6xl'>
