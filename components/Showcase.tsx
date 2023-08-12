@@ -38,7 +38,7 @@ const Showcase = () => {
                 xt:grid-cols-2 xt:grid-rows-2
                 xm:mx-28'>
                     <div className='xl:col-span-6 h-full xt:col-span-1  bg-[#e6e1c5] shadow-lg shadow-[#090D15] rounded-2xl'>
-                        <div className=' xss:p-6 pb-10 flex flex-col justify-between items-start h-fit'>
+                        <div className=' xss:p-6 pb-10 flex flex-col justify-between items-start h-full'>
 
                             <div>
                                 <ShowcaseIcon />
@@ -46,7 +46,9 @@ const Showcase = () => {
                                     GameVerse
                                 </h3>
                                 <p className='text-[#0e1420] w-[70%] xss:w-full xss:mb-7'>
-                                    Gameverse is a platform for exploring and discovering video games, where users can find information about games, view their details, and filter through different genres, platforms and more.
+                                    <Balancer>
+                                        Gameverse is a platform for exploring and discovering video games, where users can find information about games, view their details, and filter through different genres, platforms and more.
+                                    </Balancer>
                                 </p>
                             </div>
                             <a href='https://game-verse.vercel.app/' target='_blank' className=' no-underline'>
