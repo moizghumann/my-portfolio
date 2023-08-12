@@ -15,7 +15,10 @@ const Layout = ({ children }: Props) => {
     return (
         <>
             <Head>
-                <title>{siteTitle}</title>
+                <title>
+                    {siteTitle}
+                </title>
+                <link rel="icon" href="/images/peeps-avatar-alpha.png" />
                 <meta
                     name="description"
                     content="Creative Frontend Engineer building experiences with react, typescript, nextjs, and tailwindcss."
@@ -34,11 +37,11 @@ const Layout = ({ children }: Props) => {
                 />
                 <meta
                     property="og:url"
-                    content="https://nextjs-blog-three-rust-27.vercel.app/"
+                    content="https://www.yourwebsite.com"
                 />
                 <meta name="og:title" content={siteTitle} />
                 <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:site" content="@ghumanmoiz" />
+                <meta name="twitter:site" content="@yourtwitterhandle" />
             </Head>
 
             <header>
