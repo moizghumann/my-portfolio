@@ -15,7 +15,7 @@ const Showcase = () => {
 
                 <div className='grid gap-5 mt-11 h-fit
                 xl:grid-cols-9 xl:mx-10 
-                xss:px-0 xss:gap-3
+                xss:px-0 xss:gap-3 xss:mt-0
                 xt:grid-cols-2 xt:grid-rows-2
                 xm:mx-10'>
 
