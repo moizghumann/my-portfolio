@@ -16,7 +16,6 @@ const BlogCard = ({ title }: BlogCardProp) => {
                     fill={true}
                     style={{ objectFit: "cover" }}
                     quality={100}
-                    priority
                     className=' rounded-xl hover:scale-105 transition ease-in-out duration-500'
                 />
             </div>
