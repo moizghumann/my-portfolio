@@ -11,7 +11,7 @@ const Hero = () => {
         <Section>
             <div className=' block h-full mt-56 xs:mt-36 xss:mt-36 mb-28 
             xs:h-full xs:pt-5 xs:mb-44
-            xt:h-screen xt:mb-0 xt:pt-28
+            xt:h-screen xt:mb-0 xt:pt-28 xt:mt-24
             xl:pt-56 xl:mt-0'>
 
                 <h1 className='xl:text-7xl xs:text-[42px] xs:leading-[1.1]  xss:text-4xl mx-auto text-center
