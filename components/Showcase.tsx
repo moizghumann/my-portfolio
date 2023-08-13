@@ -66,7 +66,7 @@ const Showcase = () => {
                     xt:visible 
                     xl:visible xl:block
                     xm:col-span-4'>
-                        <Image src={goku} alt='goku' objectFit='cover' fill={true} priority />
+                        <Image src={goku} alt='goku' objectFit='cover' fill={true} />
                     </div>
 
                     <div className='xl:col-span-4 xt:col-span-1 bg-[#e6e1c5] shadow-lg shadow-[#090D15] rounded-2xl h-full'>

@@ -24,7 +24,7 @@ const About = () => {
                         fill={true}
                         style={{ objectFit: "cover" }}
                         quality={100}
-                        priority
+
                     />
                 </div>
                 <div className='flex flex-col justify-around items-center border-2 border-[#e6e1c5] rounded-xl p-5 xs:p-2  xss:p-2 xss:col-span-3 min-w-fit text-9xl xss:text-5xl

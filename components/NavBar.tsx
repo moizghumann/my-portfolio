@@ -25,7 +25,7 @@ const NavBar = () => {
                                 // height={50}
                                 // width={50}
                                 className='cursor-pointer rounded-full '
-                                priority
+
                             />
                         </div>
 
