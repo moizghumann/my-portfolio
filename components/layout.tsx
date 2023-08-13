@@ -4,7 +4,7 @@ import NavBar from './NavBar';
 import Footer from './Footer';
 
 
-const name = 'Moiz Ghuman';
+const intro = 'Moiz Ghuman - Frontend Developer';
 export const siteTitle = `Moiz Ghuman`;
 
 interface Props {
@@ -16,20 +16,29 @@ const Layout = ({ children }: Props) => {
         <>
             <Head>
                 <title>
-                    {siteTitle}
+                    {intro}
                 </title>
                 <link rel="icon" href="/images/peeps-avatar-alpha.png" />
+                <meta charSet='UTF-8' />
+                <meta
+                    name="viewport"
+                    content="width=device-width, initial-scale=1"
+                />
+                <meta
+                    name="og:locale"
+                    content="en-US"
+                />
                 <meta
                     name="description"
                     content="Creative Frontend Engineer building experiences with react, typescript, nextjs, and tailwindcss."
                 />
                 <meta
                     property="og:title"
-                    content={siteTitle}
+                    content={intro}
                 />
                 <meta
                     property="og:description"
-                    content="Creative Frontend Engineer building experiences with react, typescript, nextjs, and tailwindcss."
+                    content="Creative Frontend Engineer painting DOM with React, rendering best experiences with Nextjs while writing type safe Typescript and styling the web with TailwindCSS."
                 />
                 <meta
                     property="og:image"
@@ -37,11 +46,16 @@ const Layout = ({ children }: Props) => {
                 />
                 <meta
                     property="og:url"
-                    content="https://www.yourwebsite.com"
+                    content="https://nextjs-blog-three-rust-27.vercel.app/"
                 />
-                <meta name="og:title" content={siteTitle} />
+                <meta name="og:title" content={intro} />
                 <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:site" content="@yourtwitterhandle" />
+                <meta name="twitter:site" content="@ghumanmoiz" />
+                <meta name="twitter:description" content="Creative Frontend Engineer painting DOM with React, rendering best experiences with Nextjs while writing type safe Typescript and styling the web with TailwindCSS." />
+
+                <meta property="og:type" content="website" />
+                <meta property="og:site_name" content={intro} />
+                <meta name="apple-mobile-web-app-title" content="Moiz Ghuman Portfolio" />
             </Head>
 
             <header>
