@@ -42,19 +42,19 @@ const About = () => {
                     />
                 </div>
                 <div className='flex flex-col justify-around items-center border-2 border-[#e6e1c5] rounded-xl p-5 xs:p-2   min-w-fit text-9xl 
-                xms:text-[45px] xms:col-span-5 xms:p-2
+                xms:text-[38px] xms:col-span-5 xms:p-2 xms:items-start
                 xss:text-5xl xss:p-2 xss:col-span-3
                 xs:text-5xl xs:col-span-5
                 xt:text-[100px] xt:col-span-5
                 xl:col-span-4 xl:text-[100px] xl:items-start
                 xm:text-[110px] xm:items-center'>
                     <h1 className='  text-[#e6e1c5] font-semibold tracking-tight text-center 
-                    xl:text-start
+                    xl:text-start xms:text-start
                     xm:text-center xm:w-1/2'>The one</h1>
                     <h1 className='  text-[#e6e1c5] font-semibold tracking-tight'>Who</h1>
                     <h1 className='  text-[#e6e1c5] font-semibold tracking-tight'>Gets</h1>
                     <h1 className='  text-[#e6e1c5] font-semibold tracking-tight'>Shit</h1>
-                    <h1 className='  text-[#cbf420] font-semibold tracking-tight opacity-90'>Done!</h1>
+                    <h1 className='  text-[#cbf420] font-semibold tracking-tight'>Done!</h1>
                 </div>
 
                 <AboutExtended />

@@ -18,7 +18,7 @@ const Hero = () => {
                 <h1 className='xl:text-7xl xs:text-4xl xs:leading-[1.1]  xss:text-4xl mx-auto text-center
                 xt:text-6xl 
                 xms:text-[28px] xms:leading-tight
-                xm:text-[90px] xm:w-fit
+                xm:text-[75px] xm:w-screen
                 font-semibold xss:font-bold max-w-4xl  tracking-tight text-[#e6e1c5] opacity-90'>
                     <Balancer>
                         Moiz focuses on crafting meaningful experiences as an
