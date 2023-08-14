@@ -8,10 +8,11 @@ const Contact = () => {
                 <div className=' p-2 px-4 pb-4 xs:pb-2 xss:pb-[10px] xs:pt-1 xs:px-2 xss:px-[10px] xss:mt-0 border-2 hover:bg-[#E6E1C5] transition duration-300 ease-in-out hover:cursor-pointer border-[#E6E1C5] rounded-2xl mx-4 mt-10 mb-6 w-fit
                 xs:rounded-xl 
                 xss:rounded-xl
-                xt:rounded-2xl xt:px-4 xt:pt-2 xt:pb-4'>
+                xt:rounded-2xl xt:px-4 xt:pt-2 xt:pb-4
+                xms:py-3 xms:px-3'>
                     <a href="mailto:moizghuman@gmail.com"
                         className='text-[#CEFF1A] hover:text-[#0E1421] transition duration-300 ease-in-out text-7xl font-medium tracking-tight text-center cursor-pointer
-                        xms:text-lg
+                        xms:text-[27px]
                         xs:text-3xl
                         xss:text-[27px] xss:font-semibold
                         xt:text-5xl xt:font-medium
