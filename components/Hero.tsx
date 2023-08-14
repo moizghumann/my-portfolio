@@ -41,7 +41,6 @@ const Hero = () => {
                     <Button>
                         Poke me
                     </Button>
-
                 </div>
             </div>
         </Section>

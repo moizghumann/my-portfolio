@@ -8,7 +8,7 @@ import BlogDate from "../../components/Date";
 import Section from "../../components/Section";
 import { Balancer } from "react-wrap-balancer";
 import Image from "next/image";
-import me from '../../public/images/ultimate_(1)-transformed.jpeg'
+import me from '../../public/images/peeps-avatar-alpha.png'
 import Footer from "../../components/Footer";
 
 // When you export a function called getStaticPaths (Static Site Generation) from a page that uses dynamic routes, Next.js will statically pre-render all the paths specified by getStaticPaths.
@@ -81,16 +81,16 @@ const Post = ({ postsData }: PostsDataProps) => {
                                 ">
                                     <div className=" rounded-full overflow-hidden font-medium
                                 xss:h-10 xss:w-10 xss:mt-4
-                                xl:h-16 xl:w-16
+                                xl:h-14 xl:w-14
                                 xms:w-10 xms:h-10">
-                                        <Image src={me} alt="moiz" quality={100} priority />
+                                        <Image src={me} alt="moiz" quality={70} />
                                     </div>
-                                    <h5 className=" text-sm opacity-70 xss:ml-2 xss:w-1/2 xss:leading-tight xss:mt-3 xl:text-base xl:w-full xl:tracking-tight xms:text-[14px] xms:w-1/2 xms:leading-tight xms:ml-2 xms:pb-1">
+                                    <h5 className=" w-1/2 xl:leading-tight text-base opacity-70 xss:ml-2 xss:w-1/2 xss:leading-tight xss:mt-3 xl:text-base  xl:tracking-tight xms:text-[14px]  xms:ml-2 xms:pb-1 xl:pt-3 xl:pb-0">
                                         Moiz Ghuman
                                     </h5>
                                 </div>
 
-                                <h6 className=" xss:text-sm opacity-70 xl:text-base xms:text-[14px]">
+                                <h6 className=" text-base xss:text-sm opacity-70 xms:text-[14px]">
                                     3 min read
                                 </h6>
                             </div>
