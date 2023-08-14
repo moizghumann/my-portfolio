@@ -1,17 +1,29 @@
-import React from 'react'
+import React, { useEffect, useRef } from 'react'
 import Section from './Section'
+import useNavTagsStore from '../state-management/NavigationScrollStore'
 
 const Services = () => {
+    const selectedTag = useNavTagsStore(s => s.selectedTag);
+    const targetServicesRef = useRef(null);
+
+    useEffect(() => {
+        if (selectedTag === 'Services') {
+            targetServicesRef.current.scrollIntoView({ behavior: 'smooth' })
+        };
+        localStorage.removeItem('selectedTag');
+    }, [selectedTag])
+
     return (
         <Section>
             <div className=' h-full mt-20 
             xs:mt-10
             xt:mt-32 xt:mx-0
-            xl:mx-0'>
+            xl:mx-0'
+                ref={targetServicesRef}>
                 <h1 className=' text-4xl font-semibold tracking-tight text-[#cbf420] opacity-90
                 xss:text-3xl 
-                xs:text-4xl
-                '>
+                xs:text-4xl'
+                >
                     What I do?
                 </h1>
                 <div className=' text-6xl w-full font-medium tracking-tigh mt-4 

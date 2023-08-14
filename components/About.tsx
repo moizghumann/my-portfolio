@@ -1,10 +1,23 @@
-import React from 'react'
+import React, { useEffect, useRef } from 'react'
 import Image from 'next/image'
 import anotherme from '../public/images/ultimate_(1)-transformed.jpeg'
 import Section from './Section'
 import AboutExtended from './AboutExtended'
+import useNavTagsStore from '../state-management/NavigationScrollStore'
 
 const About = () => {
+    const selectedTag = useNavTagsStore(s => s.selectedTag);
+    const targetAboutRef = useRef(null);
+
+    useEffect(() => {
+
+        if (selectedTag === 'About') {
+            targetAboutRef.current.scrollIntoView({ behavior: 'smooth' });
+        };
+
+        localStorage.removeItem('selectedTag');
+    }, [selectedTag])
+
     return (
         <Section>
 
@@ -12,8 +25,8 @@ const About = () => {
             xs:gap-3 xs:mt-0 xs:grid-cols-12
             xss:grid-cols-7 xss:gap-3
             xt:grid-cols-12 xt:mt-0 xt:mx-0 xt:gap-4
-            xl:mt-44 xl:grid-cols-12 xl:gap-5
-            '>
+            xl:mt-44 xl:grid-cols-12 xl:gap-5'
+                ref={targetAboutRef}>
                 <div className=' rounded-xl overflow-hidden relative 
                 xs:col-span-7 
                 xss:col-span-4

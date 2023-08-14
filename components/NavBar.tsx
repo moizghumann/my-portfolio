@@ -3,8 +3,11 @@ import Image from 'next/image'
 import logo from '../public/images/peeps-avatar-alpha.png'
 import Link from 'next/link'
 import MobileNavButton from './MobileNavButton'
+import useNavTagsStore from '../state-management/NavigationScrollStore'
 
 const NavBar = () => {
+    const updateTag = useNavTagsStore(s => s.updateTag);
+
     return (
         <nav className='fixed w-full h-fit z-10 top-0  mb-5 
         xss:px-5
@@ -42,10 +45,16 @@ const NavBar = () => {
                     <Link href={'/blogs'} className=' hover:text-[#b8de1e]'>
                         Blogs
                     </Link>
-                    <text>Services</text>
+                    <text onClick={() => updateTag("Services")}
+                        className=' cursor-pointer hover:text-[#b8de1e]'>
+                        Services
+                    </text>
 
-                    <text>About</text>
-                    <div className=' flex justify-center items-center py-2 px-3 bg-[#bf375d] opacity-100 rounded-lg'>
+                    <text onClick={() => updateTag('About')}
+                        className=' cursor-pointer hover:text-[#b8de1e]'>
+                        About
+                    </text>
+                    <div className=' flex justify-center items-center py-2 px-3 bg-[#bf375d] opacity-100 rounded-lg cursor-pointer'>
                         <text className='text-[#E6E1C5] text-sm font-medium'>Contact me</text>
                     </div>
                 </div>

@@ -1,12 +1,24 @@
 import Image from 'next/image'
-import React from 'react'
+import React, { useEffect, useRef } from 'react'
 import Section from './Section'
 import ArrowButton from './ArrowButton'
 import ShowcaseIcon from './ShowcaseIcon'
 import goku from '../public/12916.gif'
 import { Balancer } from 'react-wrap-balancer'
+import useNavTagsStore from '../state-management/NavigationScrollStore'
+
 
 const Showcase = () => {
+    const targetShowcaseRef = useRef(null);
+    const selectedTag = useNavTagsStore(s => s.selectedTag);
+
+    useEffect(() => {
+        if (selectedTag === 'Showcase') {
+            targetShowcaseRef.current.scrollIntoView({ behavior: 'smooth' });
+        };
+        localStorage.removeItem('selectedTag')
+    }, [selectedTag])
+
     return (
         <>
             <Section>
@@ -14,7 +26,9 @@ const Showcase = () => {
                 xl:grid-cols-9 xl:mx-0 
                 xss:px-0 xss:gap-3 xss:mt-0
                 xt:grid-cols-2 
-                xm:mx-0'>
+                xm:mx-0'
+                    ref={targetShowcaseRef}
+                >
 
 
                     <div className=' flex flex-col items-start h-fit bg-[#CEFF1A] rounded-xl p-4 pt-4 text-[#0E1421] col-span-full grid-item
