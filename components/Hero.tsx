@@ -8,7 +8,8 @@ import { Balancer } from 'react-wrap-balancer';
 const Hero = () => {
     return (
         <Section>
-            <div className=' block h-full mt-56 xs:mt-36 xss:mt-36 mb-28 
+            <div className=' block h-full mt-56 xs:mt-36 mb-28 
+            xss:mt-0 
             xms:mt-0 xms:pt-36
             xs:h-full xs:pt-5 xs:mb-44
             xt:h-screen xt:mb-0 xt:pt-28 xt:mt-24
