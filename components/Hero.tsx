@@ -9,16 +9,18 @@ const Hero = () => {
     return (
         <Section>
             <div className=' block h-full mt-56 xs:mt-36 xss:mt-36 mb-28 
+            xms:mt-0 xms:pt-36
             xs:h-full xs:pt-5 xs:mb-44
             xt:h-screen xt:mb-0 xt:pt-28 xt:mt-24
             xl:pt-56 xl:mt-0'>
 
                 <h1 className='xl:text-7xl xs:text-[42px] xs:leading-[1.1]  xss:text-4xl mx-auto text-center
                 xt:text-6xl 
+                xms:text-[28px] xms:leading-tight
                 font-semibold xss:font-bold max-w-4xl  tracking-tight text-[#e6e1c5] opacity-90'>
                     <Balancer>
                         Moiz focuses on crafting meaningful experiences as an
-                        <span className='text-[#CEFF1A] ml-4 xs:ml-2 xss:ml-2 xl:ml-4'>
+                        <span className='text-[#CEFF1A] ml-4 xs:ml-2 xss:ml-2 xl:ml-4 xms:ml-2'>
                             independent frontend developer
                         </span>
                     </Balancer>
