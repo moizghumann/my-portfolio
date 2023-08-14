@@ -9,7 +9,7 @@ const Section = ({ children }: SectionProps) => {
         <section className='mb-20 mx-10 rounded-md h-fit
         xms:mx-3
         xss:mx-3
-        xs:mb-16 xs:mx-10 xs:mb-15
+        xs:mb-16 xs:mx-4 xs:mb-15
         xt:mx-6
         xm:mx-20
         '>

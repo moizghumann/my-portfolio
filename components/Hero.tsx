@@ -11,13 +11,14 @@ const Hero = () => {
             <div className=' block h-full mt-56 xs:mt-36 mb-28 
             xss:mt-0 
             xms:mt-0 xms:pt-36
-            xs:h-full xs:pt-5 xs:mb-44
+            xs:h-full xs:pt-5 xs:mb-44 xs:px-0
             xt:h-screen xt:mb-0 xt:pt-28 xt:mt-24
             xl:pt-56 xl:mt-0'>
 
-                <h1 className='xl:text-7xl xs:text-[42px] xs:leading-[1.1]  xss:text-4xl mx-auto text-center
+                <h1 className='xl:text-7xl xs:text-4xl xs:leading-[1.1]  xss:text-4xl mx-auto text-center
                 xt:text-6xl 
                 xms:text-[28px] xms:leading-tight
+                xm:text-[90px] xm:w-fit
                 font-semibold xss:font-bold max-w-4xl  tracking-tight text-[#e6e1c5] opacity-90'>
                     <Balancer>
                         Moiz focuses on crafting meaningful experiences as an

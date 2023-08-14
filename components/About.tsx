@@ -44,7 +44,7 @@ const About = () => {
                 <div className='flex flex-col justify-around items-center border-2 border-[#e6e1c5] rounded-xl p-5 xs:p-2   min-w-fit text-9xl 
                 xms:text-[45px] xms:col-span-5 xms:p-2
                 xss:text-5xl xss:p-2 xss:col-span-3
-                xs:text-6xl xs:col-span-5
+                xs:text-5xl xs:col-span-5
                 xt:text-[100px] xt:col-span-5
                 xl:col-span-4 xl:text-[100px] xl:items-start
                 xm:text-[110px] xm:items-center'>
