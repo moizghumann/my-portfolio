@@ -26,7 +26,8 @@ const Showcase = () => {
                 xl:grid-cols-9 xl:mx-0 
                 xss:px-0 xss:gap-3 xss:mt-0
                 xt:grid-cols-2 
-                xm:mx-0'
+                xm:mx-0 
+                xms:gap-3'
                     ref={targetShowcaseRef}
                 >
                     <div className=' flex flex-col items-start h-fit bg-[#CEFF1A] rounded-xl p-4 pt-4 text-[#0E1421] col-span-full grid-item
@@ -53,14 +54,14 @@ const Showcase = () => {
                     </div>
 
                     <div className='xl:col-span-6 xm:col-span-5 h-full xt:col-span-1  bg-[#e6e1c5] shadow-lg shadow-[#090D15] rounded-2xl'>
-                        <div className=' xss:p-4 xl:p-5 pb-10 flex flex-col justify-between items-start h-full'>
+                        <div className=' xss:p-4 xl:p-5 pb-10 flex flex-col justify-between items-start h-full xms:p-4'>
 
                             <div>
                                 <ShowcaseIcon />
-                                <h3 className='text-start tracking-tight font-semibold xss:font-bold text-4xl xss:text-3xl text-[#0e1420] pb-2 pt-1'>
+                                <h3 className='text-start tracking-tight font-semibold xss:font-bold text-4xl xss:text-3xl text-[#0e1420] pb-2 pt-1 xms:text-3xl'>
                                     GameVerse
                                 </h3>
-                                <p className='text-[#0e1420] font-medium xl:opacity-80 tracking-tight xl:leading-relaxed xl:text-xl w-[70%] xss:w-full xss:mb-6 xss:text-lg '>
+                                <p className='text-[#0e1420] font-medium xl:opacity-80 tracking-tight xl:leading-relaxed xl:text-xl w-[70%] xss:w-full xms:pb-7 xms:w-full xss:mb-6 xss:text-lg '>
                                     <Balancer>
                                         Gameverse is a platform for exploring and discovering video games, where users can find information about games, view their details, and filter through different genres, platforms and more.
                                     </Balancer>
@@ -84,15 +85,15 @@ const Showcase = () => {
                     </div>
 
                     <div className='xl:col-span-4 xt:col-span-1 bg-[#e6e1c5] shadow-lg shadow-[#090D15] rounded-2xl h-full'>
-                        <div className=' xss:p-4 xl:p-5 pb-10 flex flex-col justify-between items-start h-full'>
+                        <div className=' xss:p-4 xl:p-5 pb-10 flex flex-col justify-between items-start h-full xms:p-4'>
 
                             <div>
                                 <ShowcaseIcon />
-                                <h3 className=' tracking-tight text-start font-semibold xss:font-bold xss:text-3xl text-3xl text-[#0e1420] pb-2 pt-1'>
+                                <h3 className=' tracking-tight text-start font-semibold xss:font-bold xss:text-3xl text-3xl text-[#0e1420] pb-2 pt-1 xms:text-3xl'>
                                     Tic-Tac-Toe Game
                                 </h3>
-                                <p className='text-[#0e1420] font-medium xl:opacity-80 tracking-tight xl:leading-relaxed xl:text-xl w-[90%] xss:w-full xss:mb-6 xss:text-lg '>
-                                    Implemented efficient winning algorithm,ensuring accurate game outcomes.Employed clean, modular code for efficiency.
+                                <p className='text-[#0e1420] font-medium xl:opacity-80 tracking-tight xl:leading-relaxed xl:text-xl w-[90%] xss:w-full xss:mb-6 xss:text-lg xms:w-full xms:mb-6'>
+                                    Implemented efficient winning algorithm, ensuring accurate game outcomes. Employed clean, modular code for efficiency.
                                 </p>
                             </div>
                             <a href='https://tic-tac-toe-game-lyart-three.vercel.app/' target='_blank' className=' no-underline'>
@@ -101,16 +102,16 @@ const Showcase = () => {
 
                         </div>
                     </div>
-                    <div className='xt:grid xs:grid grid xs:gap-3 xt:gap-3 xss:gap-3 xl:col-span-5 xt:grid-cols-2 xt:col-span-2 xs: grid-cols-1'>
+                    <div className='xt:grid xs:grid grid xs:gap-3 xt:gap-3 xss:gap-3 xms:gap-3 xl:col-span-5 xt:grid-cols-2 xt:col-span-2 xs: grid-cols-1'>
                         <div className=' xl:col-span-1 xt:col-span-1 bg-[#e6e1c5] shadow-lg shadow-[#090D15] rounded-2xl xss:gap-5  h-full xl:h-full'>
-                            <div className=' xss:p-4 xl:p-5 flex flex-col justify-between items-start h-full'>
+                            <div className=' xss:p-4 xl:p-5 flex flex-col justify-between items-start h-full xms:p-4'>
 
                                 <div>
                                     <ShowcaseIcon />
-                                    <h3 className=' tracking-tight text-start font-semibold xss:font-bold xss:text-3xl text-2xl text-[#0e1420] pt-[3px] pb-2'>
+                                    <h3 className=' tracking-tight text-start font-semibold xss:font-bold xss:text-3xl text-2xl text-[#0e1420] pt-[3px] pb-2 xms:text-3xl'>
                                         Todo App
                                     </h3>
-                                    <p className='text-[#0e1420] font-medium xl:opacity-80 tracking-tight xl:leading-relaxed xl:text-xl w-[95%] xss:w-full xss:mb-6 xss:text-lg '>Interactive Todo game using React, TypeScript, and React Query.</p>
+                                    <p className='text-[#0e1420] font-medium xl:opacity-80 tracking-tight xl:leading-relaxed xl:text-xl w-[95%] xss:w-full xss:mb-6 xss:text-lg xms:pb-7 xms:w-full '>Interactive Todo game using React, TypeScript, and React Query.</p>
                                 </div>
 
                                 <a href='https://expense-tracker-gehc.vercel.app/' target='_blank' className=' no-underline'>
@@ -119,15 +120,17 @@ const Showcase = () => {
                             </div>
                         </div>
                         <div className='bg-[#e6e1c5] shadow-lg shadow-[#090D15] rounded-2xl h-fit xl:h-full '>
-                            <div className=' xss:p-4 xl:p-5 flex flex-col justify-between items-start xl:col-span-1 
+                            <div className=' xss:p-4 xl:p-5 flex flex-col justify-between items-start
+                            xms:p-4  
+                            xl:col-span-1 
                             xl:h-full'>
 
                                 <div>
                                     <ShowcaseIcon />
-                                    <h3 className='text-start tracking-tight font-semibold xss:font-bold xss:text-3xl text-2xl text-[#0e1420] pt-[3px] pb-2'>
+                                    <h3 className='text-start tracking-tight font-semibold xss:font-bold xss:text-3xl text-2xl text-[#0e1420] pt-[3px] pb-2 xms:text-3xl'>
                                         Expense Tracker
                                     </h3>
-                                    <p className='text-[#0e1420] font-medium xl:opacity-80 tracking-tight xl:leading-relaxed xl:text-xl w-[95%] xss:w-full xss:mb-6 xss:text-lg '>Developed an Expense Tracker using Bootstrap, React and React Hook forms with Zod for schema validation.</p>
+                                    <p className='text-[#0e1420] font-medium xl:opacity-80 tracking-tight xl:leading-relaxed xl:text-xl w-[95%] xss:w-full xms:pb-7 xms:w-full xss:mb-6 xss:text-lg '>Developed an Expense Tracker using Bootstrap, React and React Hook forms with Zod for schema validation.</p>
                                 </div>
 
                                 <a href='https://expense-tracker-gehc.vercel.app/' target='_blank' className=' no-underline'>
