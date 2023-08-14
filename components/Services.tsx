@@ -21,13 +21,14 @@ const Services = () => {
             xl:mx-0'
                 ref={targetServicesRef}>
                 <h1 className=' text-4xl font-semibold tracking-tight text-[#cbf420] opacity-90
+                xms:text-3xl
                 xss:text-3xl 
                 xs:text-4xl'
                 >
                     What I do?
                 </h1>
                 <div className=' text-6xl w-full font-medium tracking-tigh mt-4 
-                xms:text-xl
+                xms:text-3xl
                 xs:mt-3 xs:text-[35px]
                 xss:mt-2 xss:text-[33px] xss:font-semibold
                 xt:mt-4 xt:text-[42px] tracking-tight
