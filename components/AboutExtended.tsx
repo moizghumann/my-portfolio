@@ -4,6 +4,7 @@ const AboutExtended = () => {
     return (
         <div className=' grid-item col-span-full grid place-items-center rounded-2xl bg-[#cbf420] px-3 py-4'>
             <p className=' font-medium text-[#0e1421] text-start tracking-tight
+            xms:text-2xl
             xm:text-4xl 
             xl:text-3xl
             xt:text-3xl

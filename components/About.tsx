@@ -21,14 +21,14 @@ const About = () => {
     return (
         <Section>
             <div className=' grid grid-cols-2 gap-8 mt-20 
-            xms:grid-cols-5 xms:gap-2
+            xms:grid-cols-12 xms:gap-2
             xs:gap-3 xs:mt-0 xs:grid-cols-12
             xss:grid-cols-7 xss:gap-3
             xt:grid-cols-12 xt:mt-0 xt:mx-0 xt:gap-4
             xl:mt-44 xl:grid-cols-12 xl:gap-5'
                 ref={targetAboutRef}>
                 <div className=' rounded-xl overflow-hidden relative 
-                xms:col-span-3
+                xms:col-span-7
                 xs:col-span-7 
                 xss:col-span-4
                 xt:col-span-7
@@ -42,7 +42,7 @@ const About = () => {
                     />
                 </div>
                 <div className='flex flex-col justify-around items-center border-2 border-[#e6e1c5] rounded-xl p-5 xs:p-2   min-w-fit text-9xl 
-                xms:text-base xms:col-span-2
+                xms:text-[45px] xms:col-span-5 xms:p-2
                 xss:text-5xl xss:p-2 xss:col-span-3
                 xs:text-6xl xs:col-span-5
                 xt:text-[100px] xt:col-span-5
