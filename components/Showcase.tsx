@@ -29,20 +29,20 @@ const Showcase = () => {
                 xm:mx-0'
                     ref={targetShowcaseRef}
                 >
-
-
                     <div className=' flex flex-col items-start h-fit bg-[#CEFF1A] rounded-xl p-4 pt-4 text-[#0E1421] col-span-full grid-item
                     xss:pt-0
                     xs:pt-0
                     xt:pt-0
                     xl:pt-0 xl:p-5'>
                         <h2 className=' text-start font-semibold tracking-tight
-                    xss:font-bold xss:text-4xl xss:pt-4
-                    xt:text-5xl
-                    xl:text-6xl xl:pt-5'>
+                        xms:text-3xl
+                        xss:font-bold xss:text-4xl xss:pt-4
+                        xt:text-5xl
+                        xl:text-6xl xl:pt-5'>
                             Projects
                         </h2>
                         <p className=' text-lg font-medium xl:opacity-80 tracking-tight xl:leading-relaxed xl:text-xlty-90 text-start mt-4 w-[45%]
+                        xms:w-full xms:mt-2
                     xss:w-full xss:font-semibold xss:text-xl
                     xt:w-full xt:text-2xl
                     xs:w-fit'>
