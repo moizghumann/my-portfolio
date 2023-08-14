@@ -47,19 +47,21 @@ const Post = ({ postsData }: PostsDataProps) => {
                 </Head>
 
                 <div className=" grid place-items-center
+                xms:mt-20 xms:mx-2
                 xss:mt-24 xss:mx-4
                 xl:mx-56
                 xm:mx-80 xm:pl-16">
                     <article className="mb-14">
-                        <div className=" flex flex-col justify-around items-center
-                        xss:mb-10 xss:flex xss:flex-col xss:justify-between xss:items-start border-b-2  border-[#e6e1c561]">
+                        <div className=" flex flex-col justify-around items-center 
+                        xss:mb-10 xss:flex xss:flex-col xss:justify-between xss:items-start border-b-2  border-[#e6e1c561] xms:items-start">
                             <div className=" flex flex-row justify-between items-center">
-                                <Link href={'/blogs'} className="xss:mb-4 font-semibold xss:text-base opacity-70 border-[2px] hover:duration-500 hover:border-[#cbf420] border-[#e6e1c561] xss:py-1 xss:px-3 rounded-3xl">
-                                    👈 Back
+                                <Link href={'/blogs'} className="xss:mb-4 font-semibold xss:text-base opacity-70 border-[2px] hover:duration-500 hover:border-[#cbf420] border-[#e6e1c561] xss:py-1 xss:px-3 rounded-3xl xms:px-3 xms:pt-2 xms:pb-1 xms:rounded-xl">
+                                    👈  Back
                                 </Link>
 
                             </div>
-                            <h1 className="  text-center text-[#CEFF1A] font-semibold
+                            <h1 className="  text-center text-[#CEFF1A] font-semibold tracking-tight
+                            xms:text-start xms:text-3xl xms:mt-4 xms:mb-2
                             xss:text-3xl xss:mb-2 xss:text-start
                             xs:text-4xl xs:mb-2 xs:text-start
                             xl:text-5xl xl:mt-6">
@@ -68,27 +70,33 @@ const Post = ({ postsData }: PostsDataProps) => {
                                 </Balancer>
                             </h1>
                             <div className=" text-center opacity-70 xss:text-sm font-medium
-                            xl:text-base">
+                            xl:text-base xms:text-sm">
                                 <BlogDate date={postsData.date} />
                             </div>
                             <div className="flex flex-row justify-between items-end w-full font-medium
+                            xms:mt-10 xms:mb-3
                             xss:my-5
                             xl:mt-16">
                                 <div className=" flex flex-row justify-start items-center
                                 ">
                                     <div className=" rounded-full overflow-hidden font-medium
                                 xss:h-10 xss:w-10 xss:mt-4
-                                xl:h-16 xl:w-16">
+                                xl:h-16 xl:w-16
+                                xms:w-10 xms:h-10">
                                         <Image src={me} alt="moiz" quality={100} priority />
                                     </div>
-                                    <h5 className=" text-sm opacity-70 xss:ml-2 xss:w-1/2 xss:leading-tight xss:mt-3 xl:text-base xl:w-full xl:tracking-tight">Moiz Ghuman</h5>
+                                    <h5 className=" text-sm opacity-70 xss:ml-2 xss:w-1/2 xss:leading-tight xss:mt-3 xl:text-base xl:w-full xl:tracking-tight xms:text-[14px] xms:w-1/2 xms:leading-tight xms:ml-2 xms:pb-1">
+                                        Moiz Ghuman
+                                    </h5>
                                 </div>
 
-                                <h6 className=" xss:text-sm opacity-70 xl:text-base ">3 min read</h6>
+                                <h6 className=" xss:text-sm opacity-70 xl:text-base xms:text-[14px]">
+                                    3 min read
+                                </h6>
                             </div>
                         </div>
                         <div className=" leading-relaxed xss:mb-8
-                        xl:text-lg xl:leading-loose xl:mb-16"
+                        xl:text-lg xl:leading-loose xl:mb-16 xms:my-10 xms:opacity-90 xms:leading-relaxed"
                             dangerouslySetInnerHTML={{ __html: postsData.contentHtml }}
                         />
                         <Link href={'/'} className={button.link}>
