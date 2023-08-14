@@ -11,6 +11,7 @@ const Contact = () => {
                 xt:rounded-2xl xt:px-4 xt:pt-2 xt:pb-4'>
                     <a href="mailto:moizghuman@gmail.com"
                         className='text-[#CEFF1A] hover:text-[#0E1421] transition duration-300 ease-in-out text-7xl font-medium tracking-tight text-center cursor-pointer
+                        xms:text-lg
                         xs:text-3xl
                         xss:text-[27px] xss:font-semibold
                         xt:text-5xl xt:font-medium

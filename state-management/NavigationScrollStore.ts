@@ -2,7 +2,6 @@ import { create } from "zustand";
 
 export type NavTag = 'Showcase' | "About" | "Services"
 
-
 interface NavTagsStore {
     selectedTag: NavTag | null;
     updateTag: (newTag: NavTag) => void;

@@ -27,6 +27,7 @@ const Services = () => {
                     What I do?
                 </h1>
                 <div className=' text-6xl w-full font-medium tracking-tigh mt-4 
+                xms:text-xl
                 xs:mt-3 xs:text-[35px]
                 xss:mt-2 xss:text-[33px] xss:font-semibold
                 xt:mt-4 xt:text-[42px] tracking-tight

@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 import Link from 'next/link'
-import headerNavLinks from './data/headerNavLinks'
 import useNavTagsStore, { NavTag } from '../state-management/NavigationScrollStore';
 
 const MobileNavButton = () => {
     const [navShow, setNavShow] = useState(false);
+    console.log(navShow)
     const updateTag = useNavTagsStore(s => s.updateTag);
 
     const onToggleNav = () => {
@@ -21,12 +21,10 @@ const MobileNavButton = () => {
     const handleUpdate = (title: string) => {
         updateTag(title as NavTag)
     }
-
     return (
         <>
-
             <button aria-label="Toggle Menu" onClick={onToggleNav} className="relative xl:hidden xt:visible
-            xss:visible xs:visible">
+            xss:visible xs:visible xms:visible">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
@@ -40,10 +38,8 @@ const MobileNavButton = () => {
                     />
                 </svg>
             </button>
-            <div
-                className={`fixed top-0 left-0 xs:-left-5 xs:-top-6 z-20 mt-0 h-screen w-screen transform opacity-95 dark:opacity-[0.999] bg-white duration-300 ease-in-out dark:bg-[#cbf420] 
-                ${navShow ? 'translate-x-0' : 'translate-x-full'}
-                `}
+            <div className={`fixed top-0 left-0 xs:-left-5 xs:-top-6 z-20 mt-0 h-screen w-screen transform opacity-95 dark:opacity-[0.999] bg-white duration-300 ease-in-out dark:bg-[#cbf420] 
+            ${navShow ? 'translate-x-0' : 'translate-x-full'}`}
             >
                 <div className="flex justify-end">
                     <button className="mr-8 mt-11 h-8 w-8" aria-label="Toggle Menu" onClick={onToggleNav}>
@@ -61,23 +57,8 @@ const MobileNavButton = () => {
                         </svg>
                     </button>
                 </div>
-                {/* <nav className="fixed mt-8 h-full">
-                    {headerNavLinks.map((link) => (
-                        <div key={link.title} className="px-12 py-4">
-                            <Link
-                                href={link.href}
-                                className=" tracking-tight text-5xl font-bold text-gray-900 z-30
-                                 dark:text-[#0e1421]"
-                                onClick={() => { onToggleNav; handleUpdate(link.title) }}
-                            >
-                                {link.title}
-                            </Link>
-                        </div>
-                    ))}
-                </nav> */}
 
                 <nav className="fixed mt-8 h-full">
-
                     <div className="px-12 py-4 flex flex-col">
                         <div className=' pb-8'>
                             <Link
@@ -120,10 +101,8 @@ const MobileNavButton = () => {
                             </Link>
                         </div>
                     </div>
-
                 </nav>
             </div>
-
         </>
     )
 }
