@@ -21,8 +21,8 @@ const BlogCard = ({ title }: BlogCardProp) => {
             </div>
 
             <div className="pt-5 pr-2">
-                <h6 className=' text-sm xss:text-[10px] xs:text-base xs:opacity-70 font-medium xss:font-semibold uppercase'>Tech</h6>
-                <h5 className="mb-2 text-2xl xss:text-xl font-medium tracking-tight ">
+                <h6 className=' text-sm xss:text-[10px] xs:text-base xs:opacity-70 font-medium xss:font-semibold uppercase xms:text-sm xms:opacity-80'>Tech</h6>
+                <h5 className="mb-2 text-2xl xss:text-xl font-medium tracking-tight xms:text-xl">
                     {title}
                 </h5>
 
