@@ -5,7 +5,6 @@ import Link from 'next/link';
 import { Balancer } from 'react-wrap-balancer';
 
 
-
 const Hero = () => {
     return (
         <Section>

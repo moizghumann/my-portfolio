@@ -1,9 +1,11 @@
 import React, { useState } from 'react'
 import Link from 'next/link'
 import headerNavLinks from './data/headerNavLinks'
+import useNavTagsStore, { NavTag } from '../state-management/NavigationScrollStore';
 
 const MobileNavButton = () => {
-    const [navShow, setNavShow] = useState(false)
+    const [navShow, setNavShow] = useState(false);
+    const updateTag = useNavTagsStore(s => s.updateTag);
 
     const onToggleNav = () => {
         setNavShow((status) => {
@@ -15,6 +17,9 @@ const MobileNavButton = () => {
             }
             return !status
         })
+    }
+    const handleUpdate = (title: string) => {
+        updateTag(title as NavTag)
     }
 
     return (
@@ -56,19 +61,66 @@ const MobileNavButton = () => {
                         </svg>
                     </button>
                 </div>
-                <nav className="fixed mt-8 h-full">
+                {/* <nav className="fixed mt-8 h-full">
                     {headerNavLinks.map((link) => (
                         <div key={link.title} className="px-12 py-4">
                             <Link
                                 href={link.href}
                                 className=" tracking-tight text-5xl font-bold text-gray-900 z-30
                                  dark:text-[#0e1421]"
-                                onClick={onToggleNav}
+                                onClick={() => { onToggleNav; handleUpdate(link.title) }}
                             >
                                 {link.title}
                             </Link>
                         </div>
                     ))}
+                </nav> */}
+
+                <nav className="fixed mt-8 h-full">
+
+                    <div className="px-12 py-4 flex flex-col">
+                        <div className=' pb-8'>
+                            <Link
+                                href={'/'}
+                                className=" tracking-tight text-5xl font-bold text-gray-900 z-30
+                                 dark:text-[#0e1421]"
+                                onClick={onToggleNav}
+                            >
+                                Home
+                            </Link>
+                        </div>
+                        <div className=' pb-8'>
+                            <Link
+                                href={'/blogs'}
+                                className=" tracking-tight text-5xl font-bold text-gray-900 z-30
+                                 dark:text-[#0e1421]"
+                                onClick={onToggleNav}
+                            >
+                                Blogs
+                            </Link>
+                        </div>
+                        <div className=' pb-8'>
+                            <Link
+                                href={'/'}
+                                className=" tracking-tight text-5xl font-bold text-gray-900 z-30
+                                 dark:text-[#0e1421]"
+                                onClick={() => { onToggleNav(); handleUpdate('Showcase') }}
+                            >
+                                Showcase
+                            </Link>
+                        </div>
+                        <div className=' pb-8'>
+                            <Link
+                                href={'/'}
+                                className=" tracking-tight text-5xl font-bold text-gray-900 z-30
+                                 dark:text-[#0e1421]"
+                                onClick={() => { onToggleNav(); handleUpdate('About') }}
+                            >
+                                About
+                            </Link>
+                        </div>
+                    </div>
+
                 </nav>
             </div>
 
