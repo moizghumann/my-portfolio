@@ -114,7 +114,7 @@ const Showcase = () => {
                                     <p className='text-[#0e1420] font-medium xl:opacity-80 tracking-tight xl:leading-relaxed xl:text-xl w-[95%] xss:w-full xss:mb-6 xss:text-lg xms:pb-7 xms:w-full '>Interactive Todo game using React, TypeScript, and React Query.</p>
                                 </div>
 
-                                <a href='https://expense-tracker-gehc.vercel.app/' target='_blank' className=' no-underline'>
+                                <a href='https://github.com/moizghumann/Todo-app' target='_blank' className=' no-underline'>
                                     <ArrowButton />
                                 </a>
                             </div>
