@@ -100,6 +100,15 @@ const MobileNavButton = () => {
                                 About
                             </Link>
                         </div>
+                        <div className=' pb-8'>
+                            <a
+                                href="mailto:moizghuman@gmail.com"
+                                className=" tracking-tight text-5xl font-bold text-gray-900 z-30
+                                 dark:text-[#0e1421]"
+                            >
+                                Contact
+                            </a>
+                        </div>
                     </div>
                 </nav>
             </div>

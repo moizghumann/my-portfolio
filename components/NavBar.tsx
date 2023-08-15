@@ -58,7 +58,9 @@ const NavBar = () => {
                         About
                     </text>
                     <div className=' flex justify-center items-center py-2 px-3 bg-[#bf375d] opacity-100 rounded-lg cursor-pointer'>
-                        <text className='text-[#E6E1C5] text-sm font-medium'>Contact me</text>
+                        <a href='mailto:moizghuman@gmail.com' className='text-[#E6E1C5] text-sm font-medium'>
+                            Contact me
+                        </a>
                     </div>
                 </div>
             </div>
