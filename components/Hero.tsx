@@ -34,9 +34,9 @@ const Hero = () => {
                 xm:text-[75px] xm:w-screen
                 font-semibold xss:font-bold max-w-4xl  tracking-tight text-[#e6e1c5] opacity-90'>
                     <Balancer>
-                        Moiz focuses on crafting meaningful experiences as an
+                        Moiz focuses on crafting meaningful experiences as a
                         <span className='text-[#CEFF1A] ml-4 xs:ml-2 xss:ml-2 xl:ml-4 xms:ml-2'>
-                            independent frontend developer
+                            product obsessed frontend developer
                         </span>
                     </Balancer>
                 </h1>
