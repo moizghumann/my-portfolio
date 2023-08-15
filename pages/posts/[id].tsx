@@ -61,7 +61,7 @@ const Post = ({ postsData }: PostsDataProps) => {
                                 </Link>
 
                             </div>
-                            <h1 className=" leading-relaxed text-center text-[#CEFF1A] font-semibold tracking-tight
+                            <h1 className=" leading-relaxed text-center text-[#CEFF1A] font-semibold pb-3 tracking-tight
                             xms:text-start xms:text-3xl xms:mt-4 xms:mb-2
                             xss:text-3xl xss:mb-2 xss:text-start
                             xs:text-4xl xs:mb-2 xs:text-start
