@@ -9,7 +9,7 @@ const NavBar = () => {
     const updateTag = useNavTagsStore(s => s.updateTag);
 
     return (
-        <nav className='fixed w-full h-fit z-10 top-0  mb-5
+        <nav className='fixed w-screen h-fit z-10 top-0  mb-5
         xms:px-5
         xss:px-5
         xt:px-0 xt:mx-10 xt:pr-[72px]

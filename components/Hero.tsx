@@ -1,11 +1,24 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Section from './Section';
 import Button from './Button';
 import Link from 'next/link';
 import { Balancer } from 'react-wrap-balancer';
+import Toast from './Toast';
 
 
 const Hero = () => {
+    const [showToast, setShowToast] = useState<boolean>(false);
+    const [counter, setCounter] = useState<number>(0)
+    const toastState = showToast;
+    const handlePokeClick = () => {
+        setShowToast(true);
+        setCounter((prev) => prev + 1);
+    };
+
+    const handleClick = (stateData: boolean) => {
+        // for setting showToast to false
+        setShowToast(stateData);
+    }
     return (
         <Section>
             <div className=' block h-full mt-56 xs:mt-36 mb-28 
@@ -38,11 +51,14 @@ const Hero = () => {
                             Read my Blog
                         </Button>
                     </Link>
-                    <Button>
-                        Poke me
-                    </Button>
+                    <div onClick={handlePokeClick}>
+                        <Button>
+                            Poke me
+                        </Button>
+                    </div>
                 </div>
             </div>
+            {showToast && <Toast onclick={handleClick} toastState={toastState} counter={counter} />}
         </Section>
     );
 };
