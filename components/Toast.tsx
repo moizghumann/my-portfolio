@@ -13,10 +13,10 @@ const Toast = ({ onclick, toastState, counter }: ToastProp) => {
         onclick(!toastState);
     }
     return (
-        <div className={`absolute -bottom-10 xss:bottom-0 right-5 transform ${show ? 'translate-y-0' : '-translate-y-full'}  ease-in-out duration-300`}>
+        <div className={`absolute w-fit right-4 pb-4 transform ${show ? 'translate-y-0' : '-translate-y-full'}  ease-in-out duration-300`}>
 
             <div
-                className={`bg-[#EFFCBC] border-[3px] border-[#667A10] rounded-xl p-4 pr-6`}
+                className={`bg-[#EFFCBC] border-[3px] border-[#667A10] rounded-xl p-4 pr-6 h-fit w-fit xss:py-2 xms:py-2`}
                 role="alert">
                 <div className=" flex flex-row justify-between items-center">
                     <div className="flex-shrink-0">
@@ -27,7 +27,7 @@ const Toast = ({ onclick, toastState, counter }: ToastProp) => {
                                         `🌊`}
                     </div>
                     <div className="mx-3">
-                        <div className="text-lg text-[#293106] font-medium leading-tight">
+                        <div className="text-lg xss:text-base xms:text-base text-[#293106] font-medium leading-tight">
                             {counter === 1 ? `I'm all ears` :
                                 counter === 2 ? `Alright! you got my attention` :
                                     counter === 3 ? `You want me to go Super Saiyan?` :
