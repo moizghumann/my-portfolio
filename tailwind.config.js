@@ -42,6 +42,9 @@ module.exports = {
       xm: "1400px"
     }
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography'),
+    // ...
+  ],
 }
 

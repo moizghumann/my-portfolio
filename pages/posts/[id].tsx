@@ -10,6 +10,7 @@ import { Balancer } from "react-wrap-balancer";
 import Image from "next/image";
 import me from '../../public/images/peeps-avatar-alpha.png'
 import Footer from "../../components/Footer";
+import Markdown from 'markdown-to-jsx'
 
 // When you export a function called getStaticPaths (Static Site Generation) from a page that uses dynamic routes, Next.js will statically pre-render all the paths specified by getStaticPaths.
 interface PostsDataProps {
@@ -22,7 +23,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
     const paths = getAllPostsIDs();
     return {
         paths,
-        fallback: false
+        fallback: true
     }
 }
 
@@ -50,17 +51,17 @@ const Post = ({ postsData }: PostsDataProps) => {
                 xms:mt-20 xms:mx-2
                 xss:mt-24 xss:mx-4
                 xl:mx-56
-                xm:mx-80 xm:pl-16">
+                xm:mx-80 xm:pl-0">
                     <article className="mb-14">
                         <div className=" flex flex-col justify-around items-center 
                         xss:mb-10 xss:flex xss:flex-col xss:justify-between xss:items-start border-b-2  border-[#e6e1c561] xms:items-start">
                             <div className=" flex flex-row justify-between items-center">
-                                <Link href={'/blogs'} className="xss:mb-4 font-semibold xss:text-base opacity-70 border-[2px] hover:duration-500 hover:border-[#cbf420] border-[#e6e1c561] xss:py-1 xss:px-3 rounded-3xl xms:px-3 xms:pt-2 xms:pb-1 xms:rounded-xl">
+                                <Link href={'/blogs'} className=" xss:mb-0 font-semibold xss:text-base opacity-70 border-[2px] hover:duration-500 hover:border-[#cbf420] border-[#e6e1c561] xss:py-1 xss:px-3 rounded-3xl xms:px-3 xms:pt-2 xms:pb-1 xms:rounded-xl">
                                     👈  Back
                                 </Link>
 
                             </div>
-                            <h1 className="  text-center text-[#CEFF1A] font-semibold tracking-tight
+                            <h1 className=" leading-relaxed text-center text-[#CEFF1A] font-semibold tracking-tight
                             xms:text-start xms:text-3xl xms:mt-4 xms:mb-2
                             xss:text-3xl xss:mb-2 xss:text-start
                             xs:text-4xl xs:mb-2 xs:text-start
@@ -95,10 +96,12 @@ const Post = ({ postsData }: PostsDataProps) => {
                                 </h6>
                             </div>
                         </div>
-                        <div className=" leading-relaxed xss:mb-8
-                        xl:text-lg xl:leading-loose xl:mb-16 xms:my-10 xms:opacity-90 xms:leading-relaxed"
-                            dangerouslySetInnerHTML={{ __html: postsData.contentHtml }}
-                        />
+
+                        <article className="prose text-[#e6e1c5] prose-headings:text-[#e6e1c5] prose-headings:opacity-100 prose-ul:opacity-90 prose-p:opacity-90 prose-code:text-[#ced0d6] lg:prose-xl
+                        xss:mb-8
+                        xl:text-lg xl:leading-loose xl:mb-16 xms:my-10 xms:opacity-90 xms:leading-relaxed">
+                            <Markdown>{postsData.contentHtml}</Markdown>
+                        </article>
                         <Link href={'/'} className={button.link}>
                             <Button>
                                 Back to Home

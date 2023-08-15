@@ -119,7 +119,7 @@ export async function getPostData(id: string) {
     const processedContent = await remark().use(html).process(fileContentsMatter.content);
     // Convert the processed HTML content into a string
     // `processedContent` is an asynchronous Node stream. To obtain the final HTML content as a string, we use `.toString()`.
-    const contentHtml = processedContent.toString();
+    const contentHtml = fileContentsMatter.content
     // combine the data with the id and contentHtml
     return {
         id,
