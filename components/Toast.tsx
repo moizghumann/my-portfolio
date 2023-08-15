@@ -13,7 +13,7 @@ const Toast = ({ onclick, toastState, counter }: ToastProp) => {
         onclick(!toastState);
     }
     return (
-        <div className={`absolute bottom-0 right-5 transform ${show ? 'translate-y-0' : '-translate-y-full'}  ease-in-out duration-300`}>
+        <div className={`absolute -bottom-10 right-5 transform ${show ? 'translate-y-0' : '-translate-y-full'}  ease-in-out duration-300`}>
 
             <div
                 className={`bg-[#EFFCBC] border-[3px] border-[#667A10] rounded-xl p-4 pr-6`}
@@ -32,7 +32,7 @@ const Toast = ({ onclick, toastState, counter }: ToastProp) => {
                                 counter === 2 ? `Alright! you got my attention` :
                                     counter === 3 ? `You want me to go Super Saiyan?` :
                                         counter === 4 ? `Heyy it tickles!` :
-                                            `Well have fun while you're at it. Poked ${counter} times!`}
+                                            `Well, have fun while you're at it. Poked me ${counter} times!`}
                         </div>
                     </div>
                     <div className="pl-3 ml-auto">
