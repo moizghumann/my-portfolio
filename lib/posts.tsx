@@ -116,7 +116,7 @@ export async function getPostData(id: string) {
     const fileContentsMatter = matter(fileContents)
     // Convert the Markdown content (fileContentsMatter.content) into HTML
     // `remark()` creates a new remark processor, and `.use(html)` enables the transformation of Markdown to HTML.
-    const processedContent = await remark().use(html).process(fileContentsMatter.content);
+    // const processedContent = await remark().use(html).process(fileContentsMatter.content);
     // Convert the processed HTML content into a string
     // `processedContent` is an asynchronous Node stream. To obtain the final HTML content as a string, we use `.toString()`.
     const contentHtml = fileContentsMatter.content
