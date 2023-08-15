@@ -13,7 +13,7 @@ const Toast = ({ onclick, toastState, counter }: ToastProp) => {
         onclick(!toastState);
     }
     return (
-        <div className={`absolute -bottom-10 right-5 transform ${show ? 'translate-y-0' : '-translate-y-full'}  ease-in-out duration-300`}>
+        <div className={`absolute -bottom-10 xss:bottom-0 right-5 transform ${show ? 'translate-y-0' : '-translate-y-full'}  ease-in-out duration-300`}>
 
             <div
                 className={`bg-[#EFFCBC] border-[3px] border-[#667A10] rounded-xl p-4 pr-6`}
