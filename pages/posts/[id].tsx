@@ -11,6 +11,7 @@ import Image from "next/image";
 import me from '../../public/images/peeps-avatar-alpha.png'
 import Footer from "../../components/Footer";
 import Markdown from 'markdown-to-jsx'
+import Layout from "../../components/layout";
 
 // When you export a function called getStaticPaths (Static Site Generation) from a page that uses dynamic routes, Next.js will statically pre-render all the paths specified by getStaticPaths.
 interface PostsDataProps {
@@ -41,17 +42,17 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 // 3rd step - react component to display the fetched posts data for our unique id in our dynamic route
 const Post = ({ postsData }: PostsDataProps) => {
     return (
-        <>
+        <Layout>
             <Section>
                 <Head>
                     <title>{postsData.title}</title>
                 </Head>
 
                 <div className=" grid place-items-center
-                xms:mt-20 xms:mx-2
-                xss:mt-24 xss:mx-4
-                xl:mx-56
-                xm:mx-80 xm:pl-0">
+                xms:mt-40 xms:mx-2
+                xss:mt-40 xss:mx-4
+                xl:mx-56 xl:mt-56
+                xm:mx-80 xm:pl-10">
                     <div className="mb-14">
                         <div className=" flex flex-col justify-around items-center 
                         xss:mb-10 xss:flex xss:flex-col xss:justify-between xss:items-start border-b-2  border-[#e6e1c561] xms:items-start">
@@ -97,8 +98,7 @@ const Post = ({ postsData }: PostsDataProps) => {
                             </div>
                         </div>
 
-                        <article className="prose prose-lg  prose-code:text-[#ced0d6] text-[#e6e1c5] prose-headings:text-[#e6e1c5] prose-headings:opacity-100 prose-ul:opacity-90 prose-p:opacity-90 prose-pre:w-full prose-code:whitespace-pre-line
-                        xss:mb-8
+                        <article className="prose prose-lg  prose-code:text-[#ced0d6] text-[#e6e1c5] prose-headings:text-[#e6e1c5] prose-headings:opacity-100 prose-ul:opacity-90 prose-p:opacity-90 prose-pre:w-full prose-code:whitespace-pre-line prose-strong:text-[#e6e1c5] mb-8
                         ">
 
                             <Markdown>{postsData.contentHtml}</Markdown>
@@ -113,9 +113,7 @@ const Post = ({ postsData }: PostsDataProps) => {
                 </div>
 
             </Section>
-
-            <Footer />
-        </>
+        </Layout>
     )
 }
 export default Post
