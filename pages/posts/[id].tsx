@@ -52,7 +52,7 @@ const Post = ({ postsData }: PostsDataProps) => {
                 xss:mt-24 xss:mx-4
                 xl:mx-56
                 xm:mx-80 xm:pl-0">
-                    <article className="mb-14">
+                    <div className="mb-14">
                         <div className=" flex flex-col justify-around items-center 
                         xss:mb-10 xss:flex xss:flex-col xss:justify-between xss:items-start border-b-2  border-[#e6e1c561] xms:items-start">
                             <div className=" flex flex-row justify-between items-center">
@@ -97,17 +97,19 @@ const Post = ({ postsData }: PostsDataProps) => {
                             </div>
                         </div>
 
-                        <article className="prose text-[#e6e1c5] prose-headings:text-[#e6e1c5] prose-headings:opacity-100 prose-ul:opacity-90 prose-p:opacity-90 prose-code:text-[#ced0d6] lg:prose-xl
+                        <article className="prose prose-lg  prose-code:text-[#ced0d6] text-[#e6e1c5] prose-headings:text-[#e6e1c5] prose-headings:opacity-100 prose-ul:opacity-90 prose-p:opacity-90 prose-pre:w-full prose-code:whitespace-pre-line
                         xss:mb-8
-                        xl:text-lg xl:leading-loose xl:mb-16 xms:my-10 xms:opacity-90 xms:leading-relaxed">
+                        ">
+
                             <Markdown>{postsData.contentHtml}</Markdown>
+
                         </article>
                         <Link href={'/'} className={button.link}>
                             <Button>
                                 Back to Home
                             </Button>
                         </Link>
-                    </article>
+                    </div>
                 </div>
 
             </Section>
