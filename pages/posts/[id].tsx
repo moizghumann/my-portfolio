@@ -78,7 +78,7 @@ const Post = ({ postsData }: PostsDataProps) => {
                             <div className="flex flex-row justify-between items-end w-full font-medium
                             xms:mt-10 xms:mb-3
                             xss:my-5
-                            xl:mt-16">
+                            xl:mt-12">
                                 <div className=" flex flex-row justify-start items-center
                                 ">
                                     <div className=" rounded-full overflow-hidden font-medium
