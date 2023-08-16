@@ -16,7 +16,7 @@ const Toast = ({ onclick, toastState, counter }: ToastProp) => {
         <div className={`absolute w-fit right-4 pb-4 transform ${show ? 'translate-y-0' : '-translate-y-full'}  ease-in-out duration-300`}>
 
             <div
-                className={`bg-[#EFFCBC] border-[3px] border-[#667A10] rounded-xl xl:p-4 xm:p-4 pr-6 h-fit w-fit xss:py-2 xms:py-2`}
+                className={`bg-[#EFFCBC] border-[3px] border-[#667A10] rounded-xl xl:p-4 xm:p-4 pr-6 h-fit w-fit xss:py-2 xss:px-3 xms:px-2 xms:pr-3 xms:py-2`}
                 role="alert">
                 <div className=" flex flex-row justify-between items-center">
                     <div className="flex-shrink-0">

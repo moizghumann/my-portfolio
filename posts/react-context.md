@@ -1,6 +1,6 @@
 ---
 title: 'React Context API'
-date: '2023-07-1'
+date: '2023-07-11'
 ---
 
 Imagine you have a special toy box at home, and you want to share some toys with your friends who are visiting. Here's how React Context works using this analogy:
