@@ -38,7 +38,8 @@ const Layout = ({ children }: Props) => {
                 <meta property="og:description" content="Creative Frontend Engineer painting DOM with React, rendering best experiences with Nextjs while writing type safe Typescript and styling the web with TailwindCSS." />
                 <meta property="og:image" content="https://nextjs-blog-three-rust-27.vercel.app/images/Group1.jpg" />
 
-
+                <meta property='twitter:site' content='@Ghumanmoiz' />
+                <meta property='twitter:creator' content='@Ghumanmoiz' />
                 <meta property="twitter:card" content="summary_large_image" />
                 <meta property="twitter:url" content="https://nextjs-blog-three-rust-27.vercel.app/" />
                 <meta property="twitter:title" content="Moiz Ghuman - Creative Frontend Engineer" />
@@ -49,6 +50,8 @@ const Layout = ({ children }: Props) => {
                 <meta property="og:type" content="website" />
                 <meta property="og:site_name" content={intro} />
                 <meta name="apple-mobile-web-app-title" content="Moiz Ghuman Portfolio" />
+                <meta name="author" content="Moiz Ghuman" />
+
             </Head>
 
             <header>
