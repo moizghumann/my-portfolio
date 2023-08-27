@@ -29,10 +29,6 @@ const Layout = ({ children }: Props) => {
                     content="en-US"
                 />
                 <meta
-                    name="description"
-                    content="Creative Frontend Engineer building experiences with react, typescript, nextjs, and tailwindcss."
-                />
-                <meta
                     property="og:title"
                     content={intro}
                 />
@@ -48,6 +44,7 @@ const Layout = ({ children }: Props) => {
                     property="og:url"
                     content="https://nextjs-blog-three-rust-27.vercel.app/"
                 />
+
                 <meta name="og:title" content={intro} />
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta name="twitter:site" content="@ghumanmoiz" />
