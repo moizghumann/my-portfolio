@@ -28,27 +28,23 @@ const Layout = ({ children }: Props) => {
                     name="og:locale"
                     content="en-US"
                 />
-                <meta
-                    property="og:title"
-                    content={intro}
-                />
-                <meta
-                    property="og:description"
-                    content="Creative Frontend Engineer painting DOM with React, rendering best experiences with Nextjs while writing type safe Typescript and styling the web with TailwindCSS."
-                />
-                <meta
-                    property="og:image"
-                    content="/images/peeps-avatar-alpha.png"
-                />
-                <meta
-                    property="og:url"
-                    content="https://nextjs-blog-three-rust-27.vercel.app/"
-                />
+                <meta name="title" content="Moiz Ghuman - Creative Frontend Engineer" />
+                <meta name="description" content="Creative Frontend Engineer painting DOM with React, rendering best experiences with Nextjs while writing type safe Typescript and styling the web with TailwindCSS." />
 
-                <meta name="og:title" content={intro} />
-                <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:site" content="@ghumanmoiz" />
-                <meta name="twitter:description" content="Creative Frontend Engineer painting DOM with React, rendering best experiences with Nextjs while writing type safe Typescript and styling the web with TailwindCSS." />
+
+                <meta property="og:type" content="website" />
+                <meta property="og:url" content="https://metatags.io/" />
+                <meta property="og:title" content="Moiz Ghuman - Creative Frontend Engineer" />
+                <meta property="og:description" content="Creative Frontend Engineer painting DOM with React, rendering best experiences with Nextjs while writing type safe Typescript and styling the web with TailwindCSS." />
+                <meta property="og:image" content="https://metatags.io/images/meta-tags.png" />
+
+
+                <meta property="twitter:card" content="summary_large_image" />
+                <meta property="twitter:url" content="https://metatags.io/" />
+                <meta property="twitter:title" content="Moiz Ghuman - Creative Frontend Engineer" />
+                <meta property="twitter:description" content="Creative Frontend Engineer painting DOM with React, rendering best experiences with Nextjs while writing type safe Typescript and styling the web with TailwindCSS." />
+                <meta property="twitter:image" content="https://metatags.io/images/meta-tags.png" />
+
 
                 <meta property="og:type" content="website" />
                 <meta property="og:site_name" content={intro} />
