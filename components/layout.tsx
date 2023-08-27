@@ -36,14 +36,14 @@ const Layout = ({ children }: Props) => {
                 <meta property="og:url" content="https://nextjs-blog-three-rust-27.vercel.app/" />
                 <meta property="og:title" content="Moiz Ghuman - Creative Frontend Engineer" />
                 <meta property="og:description" content="Creative Frontend Engineer painting DOM with React, rendering best experiences with Nextjs while writing type safe Typescript and styling the web with TailwindCSS." />
-                <meta property="og:image" content="https://ibb.co/SBtqbFv" />
+                <meta property="og:image" content="/public/images/Group1.jpg" />
 
 
                 <meta property="twitter:card" content="summary_large_image" />
                 <meta property="twitter:url" content="https://nextjs-blog-three-rust-27.vercel.app/" />
                 <meta property="twitter:title" content="Moiz Ghuman - Creative Frontend Engineer" />
                 <meta property="twitter:description" content="Creative Frontend Engineer painting DOM with React, rendering best experiences with Nextjs while writing type safe Typescript and styling the web with TailwindCSS." />
-                <meta property="twitter:image" content="https://ibb.co/SBtqbFv" />
+                <meta property="twitter:image" content="/public/images/Group1.jpg" />
 
 
                 <meta property="og:type" content="website" />
